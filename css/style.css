@@ -48,7 +48,7 @@ header {
     justify-content: space-between; /* Titre à gauche, image à droite */
     align-items: center;            /* Centre verticalement */
     max-width: 1200px;              /* Largeur max du header */
-    margin: 0 auto;                 /* Centre horizontalement sur l’écran */
+    margin: 100px auto;                 /* Centre horizontalement sur l’écran */
 }
 
 .header-content h1 {
@@ -57,7 +57,7 @@ header {
 }
 
 .header-image {
-    height: 300px;      /* Image plus grande */
+    height: 600px;      /* Image plus grande */
     width: auto;
     border-radius: 15px; /* Coins arrondis */
 }
@@ -105,6 +105,14 @@ header {
     display: block;
 }
 
+/* ===== PORTFOLIO DESCRIPTION ===== */
+
+#portfolioDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* ===== PORTFOLIO BOX ===== */
 .portfolio-box {
     background-color: black;             /* Fond noir */
@@ -116,7 +124,11 @@ header {
     border-radius: 20px;                 /* Coins arrondis plus prononcés */
     box-shadow: 0 6px 15px rgba(0,0,0,0.3); /* Ombre plus prononcée */
 }
-#portfolioDescription h2, 
+#portfolioDescription h2 {
+    text-align: center;
+    margin: 10px 0;                 /* Espacement entre titre et paragraphe */
+}
+
 #portfolioDescription p {
     margin: 10px 0;                 /* Espacement entre titre et paragraphe */
 }
