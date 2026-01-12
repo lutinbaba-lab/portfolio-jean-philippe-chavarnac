@@ -88,18 +88,30 @@ header {
 }
 
 /* ===== PORTFOLIO BOX ===== */
-
-/* ===== PORTFOLIO BOX ===== */
 .portfolio-box {
-    background-color: black;        /* Fond noir */
-    color: white;                   /* Texte blanc */
-    padding: 20px;                  /* Espace interne */
-    width: 50%;                     /* Environ 1/2 de l'écran */
-    margin: 20px auto;              /* Centre horizontalement avec un espace vertical */
-    text-align: center;             /* Texte centré */
-    border-radius: 15px;            /* Coins arrondis */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Ombre légère pour le style */
+    background-color: black;             /* Fond noir */
+    color: white;                        /* Texte blanc */
+    padding: 30px;                       /* Espace interne augmenté */
+    width: 50%;                           /* 50% de l'écran */
+    margin: 40px auto;                   /* Centré horizontalement avec un espace vertical plus grand */
+    text-align: center;                  /* Texte centré */
+    border-radius: 20px;                 /* Coins arrondis plus prononcés */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3); /* Ombre plus prononcée */
 }
+
+/* Titre du bloc */
+.portfolio-box h2 {
+    font-size: 2em;                       /* Agrandit le titre */
+    margin-bottom: 15px;                  /* Espace entre titre et texte */
+}
+
+/* Paragraphe du bloc */
+.portfolio-box p {
+    font-size: 1.2em;                     /* Agrandit le texte du paragraphe */
+    line-height: 1.5;                     /* Meilleure lisibilité */
+    margin: 0;
+}
+
 
 #portfolioDescription h2, 
 #portfolioDescription p {
