@@ -1,12 +1,12 @@
 /* ===== NAVBAR ===== */
+
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
+    justify-content: space-between;
     padding: 15px 40px;
-    background-color: #111;
-    color: white;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
 }
 
 .logo {
@@ -18,11 +18,14 @@
     list-style: none;
     display: flex;
     gap: 25px;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links a {
-    color: white;
     text-decoration: none;
+    color: black;
+    font-weight: 500;
 }
 
 .nav-links a:hover {
@@ -76,4 +79,10 @@ header {
     right: 15px;
     font-size: 24px;
     cursor: pointer;
+}
+
+.logo-img {
+    height: 40px;      /* Hauteur de ton logo */
+    width: auto;        /* Conserve les proportions */
+    display: block;
 }
