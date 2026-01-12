@@ -39,34 +39,24 @@ body {
 }
 
 header {
-    padding: 40px 20px;
+    padding: 40px;
     background-color: #f0f0f0;
 }
 
 .header-content {
     display: flex;
-    justify-content: space-between; /* Titre à gauche, image à droite */
-    align-items: center;            /* Centre verticalement titre et image */
-    max-width: 1200px;              /* Largeur max du header */
-    margin: 0 auto;                 /* Centre horizontalement */
+    align-items: center;
+    justify-content: space-between;
 }
 
-.header-left, .header-right {
-    width: 48%; /* Presque la moitié chacun */
-    display: flex;
-    justify-content: center; /* Centre le contenu horizontalement dans sa moitié */
-}
-
-.header-left h1 {
-    font-size: 3em;   /* Titre plus grand */
+.header-content h1 {
     margin: 0;
-    text-align: center; /* Centre le texte dans sa moitié */
 }
 
 .header-image {
-    height: 200px;     /* Image plus grande */
+    height: 150px; /* Adjust size as needed */
     width: auto;
-    border-radius: 15px;
+    border-radius: 15px; /* Rounded corners */
 }
 
 .button {
