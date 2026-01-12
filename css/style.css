@@ -113,7 +113,10 @@ header {
     border-radius: 20px;                 /* Coins arrondis plus prononcés */
     box-shadow: 0 6px 15px rgba(0,0,0,0.3); /* Ombre plus prononcée */
 }
-
+#portfolioDescription h2, 
+#portfolioDescription p {
+    margin: 10px 0;                 /* Espacement entre titre et paragraphe */
+}
 /* Titre du bloc */
 .portfolio-box h2 {
     font-size: 2em;                       /* Agrandit le titre */
@@ -128,7 +131,4 @@ header {
 }
 
 
-#portfolioDescription h2, 
-#portfolioDescription p {
-    margin: 10px 0;                 /* Espacement entre titre et paragraphe */
-}
+
