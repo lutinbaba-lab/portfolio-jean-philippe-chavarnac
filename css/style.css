@@ -48,7 +48,7 @@ header {
     justify-content: space-between; /* Titre à gauche, image à droite */
     align-items: center;            /* Centre verticalement */
     max-width: 1200px;              /* Largeur max du header */
-    margin: 100px auto;                 /* Centre horizontalement sur l’écran */
+    margin: 1000px;                 /* Centre horizontalement sur l’écran */
 }
 
 .header-content h1 {
@@ -57,7 +57,7 @@ header {
 }
 
 .header-image {
-    height: 600px;      /* Image plus grande */
+    height: 450px;      /* Image plus grande */
     width: auto;
     border-radius: 15px; /* Coins arrondis */
 }
