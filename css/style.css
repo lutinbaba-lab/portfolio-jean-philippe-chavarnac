@@ -46,17 +46,18 @@ header {
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .header-content h1 {
-    margin: 0;
+    margin: 0 0 0 20px; /* Move title slightly right */
 }
 
 .header-image {
-    height: 150px; /* Adjust size as needed */
+    height: 200px; /* Make image bigger */
     width: auto;
     border-radius: 15px; /* Rounded corners */
+    margin-right: 20px; /* Move image slightly left */
 }
 
 .button {
