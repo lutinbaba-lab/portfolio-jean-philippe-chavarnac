@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio – Jean-Philippe Chavarnac</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+        <div class="logo">
+            LOGO
+        </div>
+        <ul class="nav-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#stage">Stage en entreprise</a></li>
+            <li><a href="#competences">Compétences</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== HEADER ===== -->
+    <header id="accueil">
+        <h1>Jean-Philippe Chavarnac</h1>
+        <p>Électronique & Systèmes embarqués</p>
+    </header>
+
+    <!-- ===== SECTION PROJETS ===== -->
+    <section id="projects">
+        <h2>Projets</h2>
+
+        <button class="button" onclick="openPopup()">
+            Voir le projet : Thermomètre numérique
+        </button>
+    </section>
+
+    <!-- ===== SECTIONS FUTURES ===== -->
+    <section id="stage">
+        <h2>Stage en entreprise</h2>
+    </section>
+
+    <section id="competences">
+        <h2>Compétences</h2>
+    </section>
+
+    <!-- ===== POP-UP ===== -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">×</span>
+
+            <h2>Thermomètre Numérique</h2>
+
+            <p>
+                Une carte fille de mesure de température a été réalisée, et la température
+                mesurée est affichée sur un écran LCD d’une carte mère JIPPADA équipée
+                d’un microcontrôleur STM32F303K8.
+            </p>
+
+            <p>
+                Ce projet a été réalisé en binôme, lors de ma première année du BUT GEII.
+            </p>
+
+            <div class="section">
+                <h3>Logiciels utilisés</h3>
+                <ul>
+                    <li>KiCad</li>
+                    <li>STM32CubeIDE</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/popup.js"></script>
+</body>
+</html>
