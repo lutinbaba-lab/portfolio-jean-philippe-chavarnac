@@ -48,7 +48,7 @@ header {
     justify-content: space-between; /* Titre à gauche, image à droite */
     align-items: center;            /* Centre verticalement */
     max-width: 1200px;              /* Largeur max du header */
-    margin: 100px;                 /* Centre horizontalement sur l’écran */
+    margin: 0 auto;                 /* Centre horizontalement sur l’écran */
 }
 
 .header-content h1 {
@@ -125,13 +125,11 @@ header {
     box-shadow: 0 6px 15px rgba(0,0,0,0.3); /* Ombre plus prononcée */
 }
 #portfolioDescription h2 {
+    font-size: 2.5em;
     text-align: center;
     margin: 10px 0;                 /* Espacement entre titre et paragraphe */
 }
 
-#portfolioDescription p {
-    margin: 10px 0;                 /* Espacement entre titre et paragraphe */
-}
 /* Titre du bloc */
 .portfolio-box h2 {
     font-size: 2em;                       /* Agrandit le titre */
@@ -146,4 +144,38 @@ header {
 }
 
 
+/* ===== ABOUT ME ===== */
+
+#aboutME {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-box {
+    background-color: black;             /* Fond noir */
+    color: white;                        /* Texte blanc */
+    padding: 30px;                       /* Espace interne augmenté */
+    width: 50%;                           /* 50% de l'écran */
+    margin: 40px auto;                   /* Centré horizontalement avec un espace vertical plus grand */
+    text-align: center;                  /* Texte centré */
+    border-radius: 20px;                 /* Coins arrondis plus prononcés */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3); /* Ombre plus prononcée */
+}
+#aboutME h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 10px 0;                 /* Espacement entre titre et paragraphe */
+}
+
+.about-me-box h2 {
+    font-size: 2em;                       /* Agrandit le titre */
+    margin-bottom: 15px;                  /* Espace entre titre et texte */
+}
+
+.about-me-box p {
+    font-size: 1.2em;                     /* Agrandit le texte du paragraphe */
+    line-height: 1.5;                     /* Meilleure lisibilité */
+    margin: 0;
+}
 
