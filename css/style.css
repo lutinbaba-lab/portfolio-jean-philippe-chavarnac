@@ -39,25 +39,27 @@ body {
 }
 
 header {
-    padding: 40px;
+    padding: 40px 20px;
     background-color: #f0f0f0;
 }
 
 .header-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between; /* Titre à gauche, image à droite */
+    align-items: center;            /* Centre verticalement */
+    max-width: 1200px;              /* Largeur max du header */
+    margin: 0 auto;                 /* Centre horizontalement sur l’écran */
 }
 
 .header-content h1 {
-    margin: 0 0 0 20px; /* Move title slightly right */
+    font-size: 3em;     /* Titre bien grand */
+    margin: 0;
 }
 
 .header-image {
-    height: 200px; /* Make image bigger */
+    height: 300px;      /* Image plus grande */
     width: auto;
-    border-radius: 15px; /* Rounded corners */
-    margin-right: 20px; /* Move image slightly left */
+    border-radius: 15px; /* Coins arrondis */
 }
 
 .button {
