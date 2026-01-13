@@ -234,3 +234,170 @@ header {
     margin: 0;
 }
 
+/* ===== SECTION INTRO ===== */
+.section-intro {
+    text-align: center;
+    margin: 60px auto;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+.section-intro h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.section-intro p {
+    font-size: 1.3em;
+    line-height: 1.6;
+    text-align: justify; /* Justifie le texte */
+}
+
+/* ===== PROJET BOX ===== */
+.project-box {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 40px auto;
+    width: 70%;           /* Largeur des blocs de projet */
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.project-box h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ===== CONTENU DU PROJET ===== */
+.project-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.project-image {
+    max-width: 420px; 
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* ===== IMAGES DES PROJETS : EFFET HOVER ===== */
+.project-image {
+    transition: transform 0.25s ease;
+}
+
+.project-image:hover {
+    transform: scale(1.6);
+}
+
+
+.project-description {
+    max-width: 500px;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: justify; /* Justifie le texte pour les paragraphes longs */
+}
+
+.project-description p {
+    margin-bottom: 10px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+    .project-box {
+        width: 90%;
+    }
+    .project-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-description {
+        max-width: 100%;
+    }
+    .project-image {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-intro h1 {
+        font-size: 2em;
+    }
+    .section-intro p,
+    .project-description {
+        font-size: 1.1em;
+    }
+    .project-box h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* ===== SECTIONS INTERNES DES PROJETS ===== */
+
+.project-section {
+    margin-bottom: 25px;
+}
+
+/* Titres : Contexte / Réalisation / etc. */
+.project-section h3 {
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+/* Texte sous les titres */
+.project-section p {
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Sous-titres Concevoir / Vérifier */
+.project-section h4 {
+    text-align: left;
+    font-size: 1.2em;
+    margin: 15px 0 5px 0;
+}
+
+/* Listes à puces */
+.project-section ul {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+/* Élément de liste */
+.project-section li {
+    font-size: 1.05em;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+/* ===== LOGOS DES LOGICIELS ===== */
+.project-tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;               /* Un peu plus d’espace */
+    margin: 20px 0 30px 0;
+}
+
+/* Logos bien visibles et à la même échelle */
+.project-tools img {
+    height: 65px;            /* 👈 TAILLE IDÉALE */
+    width: auto;
+    object-fit: contain;
+}
+
+.project-tools img {
+    transition: transform 0.2s ease;
+}
+
+.project-tools img:hover {
+    transform: scale(1.15);
+}

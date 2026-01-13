@@ -3,26 +3,357 @@
 <head>
     <meta charset="UTF-8">
     <title>Projets – Jean-Philippe Chavarnac</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<nav class="navbar">
-    <div class="logo">
-        <img src="assets/image/logo.png" alt="Logo" class="logo-img">
+    <!-- ===== IMAGE EN MARGES ===== -->
+    <div class="side-margins">
+        <div class="left-margin"></div>
+        <div class="right-margin"></div>
     </div>
-    <ul class="nav-links">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="projets.html">Projets</a></li>
-        <li><a href="stage.html">Stage en entreprise</a></li>
-        <li><a href="competences.html">Compétences</a></li>
-    </ul>
-</nav>
 
-<header>
-    <h1>Projets</h1>
-    <p>Page en cours de construction</p>
-</header>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="asset/image/logo.png" alt="Logo" class="logo-img">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="stage.html">Stage en entreprise</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+        </ul>
+    </nav>
 
+    <!-- ===== CONTENU PRINCIPAL ===== -->
+    <div class="main-content">
+        <!-- ===== INTRO ===== -->
+         <header id="introProjet">
+            <div class="section-intro">
+                <h1>Mes projets</h1>
+                <p>
+                    Voici les projets que j'ai pu réalisés au cours de ma formation en GEII. Ils illustrent mes compétences en électronique, systèmes embarqués, programmation et conception de systèmes complets, de l’idée jusqu’au prototype fonctionnel.
+                </p>
+            </div>
+        </header>
+        <!-- ===== PROJET 1 ===== -->
+        <section class="project-box">
+            <h2>Conception et fabrication d'un thermomètre numérique</h2>
+
+            <div class="project-content">
+                <img src="asset/image/thermomèrtre_numérique.jpg" alt="Thermomètre numérique" class="project-image">
+
+                <div class="project-description">
+                    <div class="project-section">
+                        <h3>Contexte</h3>
+                        <p>
+                            L'objectif de se projet est la réalisation d'une carte fille de capteur de température, connecté à une carte mère JIPPADA, et d'afficher la température sur un afficheur LCD.
+                        </p>
+                    </div>
+                    <div class="project-section">
+                        <h3>Réalisation</h3>
+                        <p>
+                            Conception du schéma électronique, routage du PCB,
+                            programmation du firmware.
+                        </p>
+                    </div>
+                    <div class="project-section">
+                        <h3>Logiciels utilisés</h3>
+                        <p>
+                            KiCad, STM32CubeIDE.
+                        </p>
+                    </div>
+                    <div class="project-tools">
+                        <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
+                        <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
+                    </div>
+                    <div class="project-section">
+                        <h3>Compétences développées</h3>
+                        <h4>Concevoir</h4>
+                        <ul>
+                            <li>AC11.01 | Produire une analyse fonctionnelle d’un système simple</li>
+                            <li>AC11.02 | Réaliser un prototype pour des solutions techniques matériel et/ou logiciel</li>
+                            <li>AC11.03 | Rédiger un dossier de fabrication à partir d'un dossier de conception</li>
+                        </ul>
+                        <h4>Vérifier</h4>
+                        <ul>
+                            <li>AC12.01 | Appliquer une procédure d’essais</li>
+                            <li>AC12.02 | Identifier un dysfonctionnement</li>
+                            <li>AC12.03 | Décrire un dysfonctionnement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJET 2 ===== -->
+        <section class="project-box">
+            <h2>Conception et fabrication d'une carte de commande moteur DC</h2>
+            <div class="project-content">
+                <img src="asset/image/carte_commande_moteur.jpg" alt="Carte moteur DC" class="project-image">
+                <div class="project-description">
+                    <div class="project-section">
+                        <h3>Contexte</h3>
+                        <p>
+                            L'objectif de se projet est la conception et la fabrication d'une carte de commande moteur DC commander par un bus CAN.
+                        </p>
+                    </div>
+                    <div class="project-section">
+                        <h3>Réalisation</h3>
+                        <p>
+                            Conception du schéma électronique, routage du PCB,
+                            programmation firmware.
+                        </p>
+                    </div>
+                    <div class="project-section">
+                        <h3>Logiciels utilisés</h3>
+                        <p>
+                            KiCad, STM32CubeIDE.
+                        </p>
+                    </div>
+                    <div class="project-tools">
+                        <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
+                        <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
+                    </div>
+                    <div class="project-section">
+                        <h3>Compétences développées</h3>
+                        <h4>Concevoir</h4>
+                        <ul>
+                            <li>AC21.01 | Proposer des solutions techniques liées à l'analyse fonctionnelle</li>
+                            <li>AC21.02 | Dérisquer les solutions techniques retenues</li>
+                        </ul>
+                        <h4>Vérifier</h4>
+                        <ul>
+                            <li>AC22.01 | Identifier les tests et mesures à mettre en place pour valider le fonctionnement d’un système</li>
+                            <li>AC22.02 | Certifier le fonctionnement d’un nouvel équipement industriel</li>
+                        </ul>
+                        <h4>Implanter</h4>
+                        <ul>
+                            <li>AC24.01ESE | Appliquer une procédure de fabrication pour implanter les composants matériels et/ou logiciels dans un système</li>
+                            <li>AC24.02ESE | Évaluer la conformité du système</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJET 3 ===== -->
+        <section class="project-box">
+            <h2>Conception et fabrication d'un mini Robot Sumo</h2>
+            <div class="project-content">
+                <img src="asset/image/mini_robot_sumo.jpg" alt="Robot Sumo" class="project-image">
+                <div class="project-description">
+                    <div class="project-section">
+                        <h3>Contexte</h3>
+                        <p>
+                            L'objectif de se projet est la réalisation du robot sumo suivant les régle officiel de tournois.
+                        </p>
+                    </div>
+                    <div class="project-section">
+                        <h3>Réalisation</h3>
+                        <p>
+                            Conception du schéma électronique, routage du PCB, modélisation 3D du chassis,
+                            programmation du microcontrôleur.
+                        </p>
+                    </div>
+                    <div class="project-section">
+                        <h3>Logiciels utilisés</h3>
+                        <p>
+                            KiCad, STM32CubeIDE, fusion360.
+                        </p>
+                    </div>
+                    <div class="project-tools">
+                        <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
+                        <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
+                        <img src="asset/image/fusion360logo.jpg" alt="fusion360">
+                    </div>
+                    <div class="project-section">
+                        <h3>Compétences développées</h3>
+                        <h4>Concevoir</h4>
+                        <ul>
+                            <li>AC21.01 | Proposer des solutions techniques liées à l'analyse fonctionnelle</li>
+                            <li>AC21.02 | Dérisquer les solutions techniques retenues</li>
+                        </ul>
+                        <h4>Vérifier</h4>
+                        <ul>
+                            <li>AC22.01 | Identifier les tests et mesures à mettre en place pour valider le fonctionnement d’un système</li>
+                            <li>AC22.02 | Certifier le fonctionnement d’un nouvel équipement industriel</li>
+                        </ul>
+                        <h4>Implanter</h4>
+                        <ul>
+                            <li>AC24.01ESE | Appliquer une procédure de fabrication pour implanter les composants matériels et/ou logiciels dans un système</li>
+                            <li>AC24.02ESE | Évaluer la conformité du système</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJET 4 ===== -->
+        <section class="project-box">
+            <h2>Conception d'une carte d'égaliseur numérique</h2>
+            <div class="project-content">
+                <img src="asset/image/Carte_egaliseur_numerique.png" alt="Carte égaliseur numérique" class="project-image">
+                <div class="project-description">
+                    <div class="project-section">
+                        <h3>Contexte</h3>
+                        <p>
+                            L'objectif de se projet est la conception d'une carte mère d'égaliseur numérique, avec réception et transmission du son grace à une carte fille MIKROE-506 et protocole I2S.
+                        </p>
+                    </div>
+                    <div class="project-section">
+                        <h3>Réalisation</h3>
+                        <p>
+                            Conception du schéma électronique, routage du PCB, calcule des équation de récurrence nécessaire aux filtre des égaliseurs,
+                            programmation du firmware.
+                        </p>
+                    </div>
+                    <div class="project-section">
+                        <h3>Logiciels utilisés</h3>
+                        <p>
+                            KiCad, STM32CubeIDE, MATLAB.
+                        </p>
+                    </div>
+                    <div class="project-tools">
+                        <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
+                        <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
+                        <img src="asset/image/matlab_logo.jpeg" alt="MATLAB">
+                    </div>
+                    <div class="project-section">
+                        <h3>Compétences développées</h3>
+                        <h4>Concevoir</h4>
+                        <ul>
+                            <li>AC21.01 | Proposer des solutions techniques liées à l'analyse fonctionnelle</li>
+                            <li>AC21.02 | Dérisquer les solutions techniques retenues</li>
+                        </ul>
+                        <h4>Vérifier</h4>
+                        <ul>
+                            <li>AC22.01 | Identifier les tests et mesures à mettre en place pour valider le fonctionnement d’un système</li>
+                            <li>AC22.02 | Certifier le fonctionnement d’un nouvel équipement industriel</li>
+                        </ul>
+                        <h4>Implanter</h4>
+                        <ul>
+                            <li>AC24.01ESE | Appliquer une procédure de fabrication pour implanter les composants matériels et/ou logiciels dans un système</li>
+                            <li>AC24.02ESE | Évaluer la conformité du système</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJET 5 ===== -->
+        <section class="project-box">
+            <h2>Développement du prototype d’un système de mesure de la qualité de l’air connecté</h2>
+            <div class="project-content">
+                <img src="asset/image/capteurENS160.jpg" alt="Qualité de l'air connecté" class="project-image">
+                <div class="project-description">
+                    <div class="project-section">
+                        <h3>Contexte</h3>
+                        <p>
+                            l’objectif de ce projet est le développement d’un système de mesure de la qualité de l’air
+                            connecté. Ce système constitué de plusieurs capteurs autonomes devra permettre de centraliser
+                            toutes les mesures sur une base de données pour pouvoir les visualiser.
+                        </p>
+                    </div>
+                    <div class="project-section">
+                        <h3>Réalisation</h3>
+                        <p>
+                            Conception du schéma électronique, routage du PCB, programmation du firmware des capteurs, chiffrement des données envoie des donnée.
+                            Programmation du firmware de réception des donnée, déchiffrement des données, stockage des donées sur une base de données local.
+                        </p>
+                    </div>
+                    <div class="project-section">
+                        <h3>Logiciels utilisés</h3>
+                        <p>
+                            KiCad, STM32CubeIDE, Qt Creator, DB Browser(SQLite).
+                        </p>
+                    </div>
+                    <div class="project-tools">
+                        <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
+                        <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
+                        <img src="asset/image/qt_logo.png" alt="Qt_Creator">
+                        <img src="asset/image/sqlitebrowser.svg" alt="sqlitebrowser">
+                    </div>
+                    <div class="project-section">
+                        <h3>Compétences développées</h3>
+                        <h4>Concevoir</h4>
+                        <ul>
+                            <li>AC31.01 | Contribuer à la rédaction d'un cahier des charges</li>
+                            <li>AC31.02 | Prouver la pertinence de ses choix technologiques</li>
+                            <li>AC31.03 | Rédiger un dossier de conception</li>
+                        </ul>
+                        <h4>Vérifier</h4>
+                        <ul>
+                            <li>AC32.01 | Evaluer la cause racine d’un dysfonctionnement</li>
+                            <li>AC32.02 | Proposer une solution corrective à un dysfonctionnement</li>
+                            <li>AC32.03 | Produire une procédure d’essais pour valider la conformité d’un système</li>
+                        </ul>
+                        <h4>Implanter</h4>
+                        <ul>
+                            <li>AC34.01ESE | Produire une procédure d’installation et de mise en service d’un systèm</li>
+                            <li>AC34.02ESE | Exécuter la mise en service d’un système en respectant la procédure</li>
+                            <li>AC34.03ESE | Produire le dossier de conformité du système en gérant le versionnage</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJET 6 ===== -->
+        <section class="project-box">
+            <h2>Conception et fabrication d'un Robot labyrinthe</h2>
+            <div class="project-content">
+                <img src="asset/image/Robot_labyrinthe_face_avant.jpg" alt="Robot labyrinthe" class="project-image">
+                <div class="project-description">
+                    <div class="project-section">
+                        <h3>Contexte</h3>
+                        <p>
+                            L'objectif de se projet est la conception et fabrication d'un robot labyrinthe suivant les règle de tournois officiels.
+                        </p>
+                    </div>
+                    <div class="project-section">
+                        <h3>Réalisation</h3>
+                        <p>
+                            Conception du schéma électronique, routage du PCB, modélisation 3D du chassis et
+                            programmation du firmware sous free-RTOS.
+                        </p>
+                    </div>
+                    <div class="project-section">
+                        <h3>Logiciels utilisés</h3>
+                        <p>
+                            KiCad, STM32CubeIDE, fusion360.
+                        </p>
+                    </div>
+                    <div class="project-tools">
+                        <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
+                        <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
+                        <img src="asset/image/fusion360logo.jpg" alt="fusion360">
+                    </div>
+                    <div class="project-section">
+                        <h3>Compétences développées</h3>
+                        <h4>Concevoir</h4>
+                        <ul>
+                            <li>AC31.01 | Contribuer à la rédaction d'un cahier des charges</li>
+                            <li>AC31.02 | Prouver la pertinence de ses choix technologiques</li>
+                            <li>AC31.03 | Rédiger un dossier de conception</li>
+                        </ul>
+                        <h4>Vérifier</h4>
+                        <ul>
+                            <li>AC32.01 | Evaluer la cause racine d’un dysfonctionnement</li>
+                            <li>AC32.02 | Proposer une solution corrective à un dysfonctionnement</li>
+                            <li>AC32.03 | Produire une procédure d’essais pour valider la conformité d’un système</li>
+                        </ul>
+                        <h4>Implanter</h4>
+                        <ul>
+                            <li>AC34.01ESE | Produire une procédure d’installation et de mise en service d’un systèm</li>
+                            <li>AC34.02ESE | Exécuter la mise en service d’un système en respectant la procédure</li>
+                            <li>AC34.03ESE | Produire le dossier de conformité du système en gérant le versionnage</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>        <!-- Tu peux dupliquer la section "project-box" pour chaque projet supplémentaire -->
+    </div>
 </body>
 </html>
