@@ -193,6 +193,7 @@ header {
 
 /* Paragraphe du bloc */
 .portfolio-box p {
+    text-align: justify; /* Justifie le texte */
     font-size: 1.2em;                     /* Agrandit le texte du paragraphe */
     line-height: 1.5;                     /* Meilleure lisibilité */
     margin: 0;
@@ -229,6 +230,7 @@ header {
 }
 
 .about-me-box p {
+    text-align: justify; /* Justifie le texte */
     font-size: 1.2em;                     /* Agrandit le texte du paragraphe */
     line-height: 1.5;                     /* Meilleure lisibilité */
     margin: 0;
