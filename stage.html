@@ -2,27 +2,454 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Stage en entreprise</title>
+    <title>Stages en entreprise – Jean-Philippe Chavarnac</title>
+    <meta name="description" content="Découvrez les stages réalisés par Jean-Philippe Chavarnac : stage chez Ranky (B.U.T 2) et stage à l'IES – Institut d'Électronique et des Systèmes (B.U.T 3).">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<nav class="navbar">
-    <div class="logo">
-        <img src="assets/image/logo.png" alt="Logo" class="logo-img">
+    <!-- ===== IMAGE EN MARGES ===== -->
+    <div class="side-margins">
+        <div class="left-margin"></div>
+        <div class="right-margin"></div>
     </div>
-    <ul class="nav-links">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="projets.html">Projets</a></li>
-        <li><a href="stage.html">Stage en entreprise</a></li>
-        <li><a href="competences.html">Compétences</a></li>
-    </ul>
-</nav>
 
-<header>
-    <h1>Stage en entreprise </h1>
-    <p>Page en cours de construction</p>
-</header>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="asset/image/logo.png" alt="Logo" class="logo-img">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="stage.html">Stage en entreprise</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+        </ul>
+    </nav>
 
+    <!-- ===== CONTENU PRINCIPAL ===== -->
+    <div class="main-content">
+
+        <!-- ===== INTRO ===== -->
+        <header id="introStage">
+            <div class="section-intro">
+                <h1>Mes stages en entreprise</h1>
+                <p>
+                    Dans le cadre de ma formation en B.U.T GEII spécialité Électronique et Systèmes Embarqués, j'ai réalisé deux stages qui m'ont permis de mettre en pratique et d'approfondir les compétences acquises, tout en découvrant la réalité du monde professionnel dans des environnements très différents.
+                </p>
+            </div>
+        </header>
+
+        <!-- ===== STAGE 1 : RANKY (B.U.T 2) ===== -->
+        <section id="stage-ranky" class="project-box">
+            <div class="project-header">
+                <span class="project-number stage-but2">B.U.T 2</span>
+                <h2>Stage chez Ranky – Diagnostic et fabrication d'un système automatisé</h2>
+            </div>
+
+            <!-- Info entreprise -->
+            <div class="stage-company-bar">
+                <div class="stage-company-info">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    <span>Ranky – Marketing numérique &amp; solutions connectées</span>
+                </div>
+                <div class="stage-company-info">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                    <span>8 semaines – Validation B.U.T 2</span>
+                </div>
+                <div class="stage-company-info">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    <a href="https://ranky.io/" target="_blank" rel="noopener" class="stage-link">ranky.io</a>
+                </div>
+            </div>
+
+            <img src="asset/image/ranky_test.png" alt="Tablettes Raspberry Pi chez Ranky" class="project-image">
+
+            <!-- Contexte + Missions -->
+            <div class="project-info-grid">
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                    </div>
+                    <h3>Contexte</h3>
+                    <p>Ranky est une entreprise spécialisée dans le marketing numérique qui propose l'automatisation de la collecte d'avis en ligne via des tablettes tactiles Raspberry Pi. Mon tuteur professionnel fabriquait également de la bière artisanale, ce qui a donné naissance à une seconde mission.</p>
+                </div>
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                    </div>
+                    <h3>Missions réalisées</h3>
+                    <p>Deux grandes missions : le diagnostic et la réparation d'un parc de 30 à 35 tablettes Raspberry Pi, puis la conception et la fabrication complète d'une laveuse de fût automatique pilotée par Raspberry Pi.</p>
+                </div>
+            </div>
+
+            <!-- Missions détaillées -->
+            <p class="section-label">Détail des missions</p>
+            <div class="stage-missions-grid">
+
+                <div class="stage-mission-card">
+                    <div class="stage-mission-header">
+                        <div class="stage-mission-number">01</div>
+                        <h3>Diagnostic &amp; réparation d'un parc de tablettes</h3>
+                    </div>
+                    <p>Tri et diagnostic de 30 à 35 tablettes Raspberry Pi selon deux critères : présence de faux contacts sur les ports USB d'alimentation et dysfonctionnements logiciels (bugs tactiles, problèmes de connexion réseau).</p>
+                    <p>Réparation logicielle par clonage d'une carte SD fonctionnelle pour reflasher les OS corrompus. Identification des tablettes nécessitant un remplacement de composants SMD (port USB dessoudé).</p>
+                </div>
+
+                <div class="stage-mission-card">
+                    <div class="stage-mission-header">
+                        <div class="stage-mission-number">02</div>
+                        <h3>Conception d'une laveuse de fût automatique</h3>
+                    </div>
+                    <p>Analyse fonctionnelle du cycle de lavage (rinçage → nettoyage → rinçage → désinfection), sélection des composants : pompes de relevage, interrupteurs relais 5 V et électrovannes 12 V commandées par Raspberry Pi.</p>
+                    <p>Développement du programme en Python pour automatiser le cycle de lavage, avec lancement automatique au démarrage du système via une configuration de démarrage Linux.</p>
+                </div>
+
+            </div>
+
+            <!-- Outils -->
+            <div class="project-tools-section">
+                <p class="section-label">Outils utilisés</p>
+                <div class="project-tools">
+                    <div class="tool-chip">
+                        <img src="asset/image/Raspberry_Pi_logo_pillars.webp" alt="Raspberry Pi">
+                        <span>Raspberry Pi</span>
+                    </div>
+                    <div class="tool-chip">
+                        <img src="asset/image/python.webp" alt="Python">
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compétences -->
+            <div class="project-skills-section">
+                <p class="section-label">Compétences développées</p>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-verifier">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        <a href="competences.html#verifier">Vérifier</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC12.01</strong> Appliquer une procédure d'essais – diagnostic systématique des 30+ tablettes selon des critères définis</li>
+                        <li><strong>AC12.02</strong> Identifier un dysfonctionnement – distinction faux contacts USB / bugs logiciels</li>
+                        <li><strong>AC12.03</strong> Décrire un dysfonctionnement – documentation des pannes relevées</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-concevoir">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                        <a href="competences.html#concevoir">Concevoir</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC11.01</strong> Produire une analyse fonctionnelle – étude du cycle de lavage, des contraintes et des composants à retenir</li>
+                        <li><strong>AC11.02</strong> Réaliser un prototype – fabrication du boîtier électrique et câblage de la laveuse</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-implanter">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+                        <a href="competences.html#implanter">Implanter</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC24.01ESE</strong> Implantation logicielle – déploiement du programme Python et configuration du démarrage automatique Linux</li>
+                        <li><strong>AC24.02ESE</strong> Évaluation de la conformité – tests du cycle de lavage complet</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== STAGE 2 : IES (B.U.T 2 – redoublement) ===== -->
+        <section id="stage-ies" class="project-box">
+            <div class="project-header">
+                <span class="project-number stage-but2">B.U.T 2</span>
+                <h2>Stage à l'IES – Conception d'un hub USB sur-mesure pour commutateurs RF</h2>
+            </div>
+
+            <!-- Info entreprise -->
+            <div class="stage-company-bar">
+                <div class="stage-company-info">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    <span>IES – Institut d'Électronique et des Systèmes, Université de Montpellier / CNRS</span>
+                </div>
+                <div class="stage-company-info">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                    <span>10 semaines – Validation B.U.T 2 (redoublement)</span>
+                </div>
+                <div class="stage-company-info">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    <a href="https://www.ies.univ-montp2.fr/" target="_blank" rel="noopener" class="stage-link">ies.univ-montp2.fr</a>
+                </div>
+            </div>
+
+            <img src="asset/image/banc_de_test_mavera.jpg" alt="Banc de test MAVERA à l'IES" class="project-image">
+
+            <!-- Contexte + Missions -->
+            <div class="project-info-grid">
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                    </div>
+                    <h3>Contexte</h3>
+                    <p>Au sein de l'équipe RADIAC (RADIAtion et Composants), j'ai participé au projet de recherche MAVERA (Méthodologie d'Analyse de la Vulnérabilité Électromagnétique de Robots Autonomes). L'objectif était de concevoir un hub USB sur-mesure pour automatiser les expériences avec des commutateurs RF.</p>
+                </div>
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                    </div>
+                    <h3>Mission réalisée</h3>
+                    <p>Conception complète d'un hub USB 4 ports sur-mesure : bibliographie sur le protocole USB, recherche et sélection de composants, conception du schéma électrique, dimensionnement des composants, routage PCB, modélisation 3D du boîtier, commande logicielle et fabrication des cartes contrôleurs.</p>
+                </div>
+            </div>
+
+            <img src="asset/image/hub ies.jpg" alt="Hub USB sur-mesure conçu à l'IES" class="project-image">
+
+            <!-- Missions détaillées -->
+            <p class="section-label">Détail des réalisations</p>
+            <div class="stage-missions-grid">
+
+                <div class="stage-mission-card">
+                    <div class="stage-mission-header">
+                        <div class="stage-mission-number">01</div>
+                        <h3>Conception du schéma électrique du hub</h3>
+                    </div>
+                    <p>Conception d'un hub USB 4 ports (USB5744 de Microchip) alimenté en 12 V, avec chaîne de régulation de tension (12 V → 5 V → 3,3 V et 1,2 V), commutateurs de distribution de puissance MIC2026 pour protéger les ports USB, mémoire flash SPI et oscillateur quartz 25 MHz. Dimensionnement complet de tous les composants passifs à partir des datasheets.</p>
+                </div>
+
+                <div class="stage-mission-card">
+                    <div class="stage-mission-header">
+                        <div class="stage-mission-number">02</div>
+                        <h3>Routage PCB &amp; modélisation 3D du boîtier</h3>
+                    </div>
+                    <p>Routage du PCB du hub sous KiCad avec calcul des largeurs de pistes (puissance, analogique, logique). Conception du boîtier 3D (238 × 227 mm) pour accueillir le hub et les 4 commutateurs RF rackables, avec cache amovible et marges de tolérance pour l'impression 3D.</p>
+                </div>
+
+                <div class="stage-mission-card">
+                    <div class="stage-mission-header">
+                        <div class="stage-mission-number">03</div>
+                        <h3>Commande logicielle du hub USB</h3>
+                    </div>
+                    <p>Analyse du protocole de communication USB avec Wireshark (trames URB_CONTROL). Développement d'un script Python multi-plateforme (Windows via MPLAB API / Linux via pyusb + libusb) permettant de configurer dynamiquement les ports du hub pour automatiser les expériences MAVERA.</p>
+                </div>
+
+                <div class="stage-mission-card">
+                    <div class="stage-mission-header">
+                        <div class="stage-mission-number">04</div>
+                        <h3>Fabrication des cartes contrôleurs Arduino</h3>
+                    </div>
+                    <p>Réalisation des PCB des cartes contrôleurs (Arduino Nano + connecteur DB15) à l'aide de la graveuse laser 250k€ de l'IES, étamage chimique pour prévenir l'oxydation, soudure des composants et tests de fonctionnement en envoyant des commandes de commutation RF.</p>
+                </div>
+
+            </div>
+
+            <!-- Outils -->
+            <div class="project-tools-section">
+                <p class="section-label">Outils utilisés</p>
+                <div class="project-tools">
+                    <div class="tool-chip">
+                        <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
+                        <span>KiCad</span>
+                    </div>
+                    <div class="tool-chip">
+                        <img src="asset/image/fusion360logo.jpg" alt="Fusion 360">
+                        <span>Fusion 360</span>
+                    </div>
+                    <div class="tool-chip">
+                        <img src="asset/image/python.webp" alt="Python">
+                        <span>Python</span>
+                    </div>
+                    <div class="tool-chip">
+                        <img src="asset/image/visual-studio-code-logo.webp" alt="Visual Studio Code">
+                        <span>Visual Studio Code</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compétences -->
+            <div class="project-skills-section">
+                <p class="section-label">Compétences développées</p>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-concevoir">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                        <a href="competences.html#concevoir">Concevoir</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC31.01</strong> Contribuer à la rédaction d'un cahier des charges – définition des contraintes du hub (4 ports, activable/désactivable, rackable, alimenté 12 V)</li>
+                        <li><strong>AC31.02</strong> Prouver la pertinence des choix technologiques – sélection du USB5744, justification par datasheet et tests sur kit EVB</li>
+                        <li><strong>AC31.03</strong> Rédiger un dossier de conception – rapport de stage complet incluant schémas, calculs de dimensionnement et documentation</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-verifier">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        <a href="competences.html#verifier">Vérifier</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC32.01</strong> Évaluer la cause racine d'un dysfonctionnement – analyse des erreurs de communication USB avec Wireshark</li>
+                        <li><strong>AC32.02</strong> Proposer une solution corrective – développement d'un script multi-OS (Windows/Linux) en réponse aux limitations des DLL Microchip</li>
+                        <li><strong>AC32.03</strong> Produire une procédure de tests – protocole de validation des cartes contrôleurs par envoi de commandes de commutation RF</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-implanter">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+                        <a href="competences.html#implanter">Implanter</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC34.01ESE</strong> Produire une procédure d'installation et de mise en service – étamage, soudure, flashage et vérification des cartes Arduino</li>
+                        <li><strong>AC34.02ESE</strong> Exécuter la mise en service en respectant la procédure – tests systématiques des commutateurs RF avec le firmware déployé</li>
+                        <li><strong>AC34.03ESE</strong> Produire le dossier de conformité – rapport complet de 37 pages avec table des figures, annexes et références bibliographiques</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-maintenir">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                        <a href="competences.html#maintenir">Maintenir</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC23.03</strong> Diagnostiquer un dysfonctionnement – identification et résolution des problèmes de pilotes USB sous Windows avec l'outil Zadig</li>
+                        <li><strong>AC23.04</strong> Identifier la cause racine – incompatibilité des DLL Microchip avec Linux, nécessitant une solution PyUSB alternative</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== STAGE 3 : B.U.T 3 (CONFIDENTIEL) ===== -->
+        <section id="stage-but3" class="project-box">
+            <div class="project-header">
+                <span class="project-number stage-but3">B.U.T 3</span>
+                <h2>Conception et automatisation de bancs de test pour cartes d'alimentation</h2>
+            </div>
+
+            <!-- Info entreprise -->
+            <div class="stage-company-bar">
+                <div class="stage-company-info">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                    <span>Entreprise Confidentielle (Secteur Défense / Conception d'Alimentations)</span>
+                </div>
+                <div class="stage-company-info">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                    <span>16 semaines – Validation B.U.T 3 (Diplôme validé)</span>
+                </div>
+                <div class="stage-company-info">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    <span style="color: #ef5350; font-weight: 600;">Données Sensibles (NDA)</span>
+                </div>
+            </div>
+
+            <!-- Bannière de Confidentialité Premium -->
+            <div class="confidential-card">
+                <div class="confidential-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                </div>
+                <div>
+                    <h3>🔒 Projet soumis à un Accord de Confidentialité (NDA)</h3>
+                    <p>En raison du caractère hautement confidentiel des équipements de défense concernés, le schéma des cartes d'alimentation, les modèles 3D exacts des bancs de test ainsi que les détails algorithmiques de l'automatisation logicielle sont soumis au secret professionnel. Aucun visuel ou schéma technique réel ne peut être exposé publiquement.</p>
+                </div>
+            </div>
+
+            <!-- Contexte + Missions -->
+            <div class="project-info-grid">
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                    </div>
+                    <h3>But du stage</h3>
+                    <p>Concevoir et réaliser des bancs de test manuels et automatiques pour des cartes d'alimentation électroniques complexes, afin de valider et sécuriser leur bon fonctionnement en sortie de production.</p>
+                </div>
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                    </div>
+                    <h3>Missions réalisées</h3>
+                    <p>Saisie et routage de schémas électriques, modélisation CAO 3D des châssis et bancs, réalisation des plans techniques fonctionnels pour usinage en atelier, et programmation de l'application logicielle d'automatisation des tests.</p>
+                </div>
+            </div>
+
+            <!-- Réalisations détaillées -->
+            <p class="section-label">Détail des réalisations</p>
+            <div class="stage-missions-grid">
+
+                <div class="stage-mission-card">
+                    <div class="stage-mission-header">
+                        <div class="stage-mission-number">01</div>
+                        <h3>Schémas électriques avec OrCAD Capture</h3>
+                    </div>
+                    <p>Étude des topologies d'alimentation et sélection des points de test critiques. Réalisation complète des schémas électriques fonctionnels de routage avec le logiciel industriel <strong>OrCAD Capture</strong>, en veillant à la clarté et à la conformité des normes schématiques.</p>
+                </div>
+
+                <div class="stage-mission-card">
+                    <div class="stage-mission-header">
+                        <div class="stage-mission-number">02</div>
+                        <h3>Modèle 3D &amp; plans mécaniques avec CAO Inventor</h3>
+                    </div>
+                    <p>Conception mécanique complète de la structure physique et du berceau du banc de test sous <strong>Autodesk Inventor</strong>. Réalisation des modèles 3D volumiques et édition des plans de fabrication mécanique cotés pour en permettre l'usinage en atelier.</p>
+                </div>
+
+                <div class="stage-mission-card" style="grid-column: span 2;">
+                    <div class="stage-mission-header">
+                        <div class="stage-mission-number">03</div>
+                        <h3>Automatisation logicielle du banc en langage C avec LabWindows</h3>
+                    </div>
+                    <p>Développement de l'application d'automatisation de tests et d'instrumentation en <strong>langage C</strong> sous l'environnement professionnel <strong>NI LabWindows/CVI</strong>. Gestion de la communication avec les appareils de mesure, automatisation des cycles de tension/courant, et création d'une interface graphique opérateur intuitive pour le suivi des courbes d'essais.</p>
+                </div>
+
+            </div>
+
+            <!-- Outils -->
+            <div class="project-tools-section">
+                <p class="section-label">Outils utilisés</p>
+                <div class="project-tools">
+                    <div class="tool-chip">
+                        <img src="asset/image/orcad-logo-png_seeklogo-317006.webp" alt="OrCAD Capture">
+                        <span>OrCAD Capture</span>
+                    </div>
+                    <div class="tool-chip">
+                        <img src="asset/image/autodesk-inventor-logo-png_seeklogo-482398.webp" alt="Autodesk Inventor">
+                        <span>Autodesk Inventor</span>
+                    </div>
+                    <div class="tool-chip">
+                        <img src="asset/image/NI.webp" alt="NI LabWindows">
+                        <span>NI LabWindows (C)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compétences -->
+            <div class="project-skills-section">
+                <p class="section-label">Compétences développées</p>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-concevoir">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                        <a href="competences.html#concevoir">Concevoir</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC31.02</strong> Prouver la pertinence de ses choix technologiques – sélection rigoureuse des composants d'alimentation et des points de test</li>
+                        <li><strong>AC31.03</strong> Rédiger un dossier de conception – production d'un dossier complet comprenant modèles CAO, plans de cotation et schémas fonctionnels</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-verifier">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        <a href="competences.html#verifier">Vérifier</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC32.01</strong> Évaluer la cause racine d'un dysfonctionnement – analyse fine des écarts de tension/courant observés sur les cartes d'alimentation</li>
+                        <li><strong>AC32.03</strong> Produire une procédure d'essais – formalisation d'un protocole d'essais rigoureux pour garantir la conformité des cartes et des bancs de test</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-implanter">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+                        <a href="competences.html#implanter">Implanter</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC34.02ESE</strong> Exécuter la mise en service du système – installation, interconnexion matériel/logiciel, et calibration métrologique du banc de test final</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
 </body>
 </html>

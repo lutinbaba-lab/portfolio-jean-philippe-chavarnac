@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Projets – Jean-Philippe Chavarnac</title>
+    <meta name="description" content="Découvrez les projets réalisés par Jean-Philippe Chavarnac en BUT GEII spécialité ESE : thermomètre numérique, robot sumo, carte de commande moteur, égaliseur numérique, qualité de l'air et robot labyrinthe.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -28,332 +29,485 @@
 
     <!-- ===== CONTENU PRINCIPAL ===== -->
     <div class="main-content">
+
         <!-- ===== INTRO ===== -->
-         <header id="introProjet">
+        <header id="introProjet">
             <div class="section-intro">
                 <h1>Mes projets</h1>
                 <p>
-                    Voici les projets que j'ai pu réalisés au cours de ma formation en GEII. Ils illustrent mes compétences en électronique, systèmes embarqués, programmation et conception de systèmes complets, de l’idée jusqu’au prototype fonctionnel.
+                    Voici les projets que j'ai réalisés au cours de ma formation en GEII. Ils illustrent mes compétences en électronique, systèmes embarqués, programmation et conception de systèmes complets, de l'idée jusqu'au prototype fonctionnel.
                 </p>
             </div>
         </header>
+
         <!-- ===== PROJET 1 ===== -->
-        <section class="project-box">
-            <h2>Conception et fabrication d'un thermomètre numérique</h2>
+        <section id="projet-thermometre" class="project-box">
+            <div class="project-header">
+                <span class="project-number">01</span>
+                <h2>Conception et fabrication d'un thermomètre numérique</h2>
+            </div>
 
-            <div class="project-content">
-                <img src="asset/image/thermomèrtre_numérique.jpg" alt="Thermomètre numérique" class="project-image">
+            <img src="asset/image/thermomèrtre_numérique.jpg" alt="Thermomètre numérique" class="project-image">
 
-                <div class="project-description">
-                    <div class="project-section">
-                        <h3>Contexte</h3>
-                        <p>
-                            L'objectif de se projet est la réalisation d'une carte fille de capteur de température, connecté à une carte mère JIPPADA, et d'afficher la température sur un afficheur LCD.
-                        </p>
+            <div class="project-info-grid">
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
                     </div>
-                    <div class="project-section">
-                        <h3>Réalisation</h3>
-                        <p>
-                            Conception du schéma électronique, routage du PCB,
-                            programmation du firmware.
-                        </p>
+                    <h3>Contexte</h3>
+                    <p>Réalisation d'une carte fille de capteur de température, connectée à une carte mère JIPPADA, avec affichage de la température sur un écran LCD.</p>
+                </div>
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
                     </div>
-                    <div class="project-section">
-                        <h3>Logiciels utilisés</h3>
-                        <p>
-                            KiCad, STM32CubeIDE.
-                        </p>
-                    </div>
-                    <div class="project-tools">
+                    <h3>Réalisation</h3>
+                    <p>Conception du schéma électronique, routage du PCB et programmation du firmware embarqué.</p>
+                </div>
+            </div>
+
+            <div class="project-tools-section">
+                <p class="section-label">Outils utilisés</p>
+                <div class="project-tools">
+                    <div class="tool-chip">
                         <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
+                        <span>KiCad</span>
+                    </div>
+                    <div class="tool-chip">
                         <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
+                        <span>STM32CubeIDE</span>
                     </div>
-                    <div class="project-section">
-                        <h3>Compétences développées</h3>
-                        <h4>Concevoir</h4>
-                        <ul>
-                            <li>AC11.01 | Produire une analyse fonctionnelle d’un système simple</li>
-                            <li>AC11.02 | Réaliser un prototype pour des solutions techniques matériel et/ou logiciel</li>
-                            <li>AC11.03 | Rédiger un dossier de fabrication à partir d'un dossier de conception</li>
-                        </ul>
-                        <h4>Vérifier</h4>
-                        <ul>
-                            <li>AC12.01 | Appliquer une procédure d’essais</li>
-                            <li>AC12.02 | Identifier un dysfonctionnement</li>
-                            <li>AC12.03 | Décrire un dysfonctionnement</li>
-                        </ul>
+                </div>
+            </div>
+
+            <div class="project-skills-section">
+                <p class="section-label">Compétences développées</p>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-concevoir">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                        <a href="competences.html#concevoir">Concevoir</a>
                     </div>
+                    <ul class="ac-list">
+                        <li><strong>AC11.01</strong> Produire une analyse fonctionnelle d'un système simple</li>
+                        <li><strong>AC11.02</strong> Réaliser un prototype pour des solutions techniques matériel et/ou logiciel</li>
+                        <li><strong>AC11.03</strong> Rédiger un dossier de fabrication à partir d'un dossier de conception</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-verifier">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        <a href="competences.html#verifier">Vérifier</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC12.01</strong> Appliquer une procédure d'essais</li>
+                        <li><strong>AC12.02</strong> Identifier un dysfonctionnement</li>
+                        <li><strong>AC12.03</strong> Décrire un dysfonctionnement</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
         <!-- ===== PROJET 2 ===== -->
-        <section class="project-box">
-            <h2>Conception et fabrication d'une carte de commande moteur DC</h2>
-            <div class="project-content">
-                <img src="asset/image/carte_commande_moteur.jpg" alt="Carte moteur DC" class="project-image">
-                <div class="project-description">
-                    <div class="project-section">
-                        <h3>Contexte</h3>
-                        <p>
-                            L'objectif de se projet est la conception et la fabrication d'une carte de commande moteur DC commander par un bus CAN.
-                        </p>
+        <section id="projet-moteur" class="project-box">
+            <div class="project-header">
+                <span class="project-number">02</span>
+                <h2>Conception et fabrication d'une carte de commande moteur DC</h2>
+            </div>
+
+            <img src="asset/image/carte_commande_moteur.jpg" alt="Carte de commande moteur DC" class="project-image">
+
+            <div class="project-info-grid">
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
                     </div>
-                    <div class="project-section">
-                        <h3>Réalisation</h3>
-                        <p>
-                            Conception du schéma électronique, routage du PCB,
-                            programmation firmware.
-                        </p>
+                    <h3>Contexte</h3>
+                    <p>Conception et fabrication d'une carte de commande pour moteur à courant continu, pilotée via un bus CAN.</p>
+                </div>
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
                     </div>
-                    <div class="project-section">
-                        <h3>Logiciels utilisés</h3>
-                        <p>
-                            KiCad, STM32CubeIDE.
-                        </p>
-                    </div>
-                    <div class="project-tools">
+                    <h3>Réalisation</h3>
+                    <p>Conception du schéma électronique, routage du PCB, soudure CMS et programmation du firmware CAN/moteur.</p>
+                </div>
+            </div>
+
+            <div class="project-tools-section">
+                <p class="section-label">Outils utilisés</p>
+                <div class="project-tools">
+                    <div class="tool-chip">
                         <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
+                        <span>KiCad</span>
+                    </div>
+                    <div class="tool-chip">
                         <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
+                        <span>STM32CubeIDE</span>
                     </div>
-                    <div class="project-section">
-                        <h3>Compétences développées</h3>
-                        <h4>Concevoir</h4>
-                        <ul>
-                            <li>AC21.01 | Proposer des solutions techniques liées à l'analyse fonctionnelle</li>
-                            <li>AC21.02 | Dérisquer les solutions techniques retenues</li>
-                        </ul>
-                        <h4>Vérifier</h4>
-                        <ul>
-                            <li>AC22.01 | Identifier les tests et mesures à mettre en place pour valider le fonctionnement d’un système</li>
-                            <li>AC22.02 | Certifier le fonctionnement d’un nouvel équipement industriel</li>
-                        </ul>
-                        <h4>Implanter</h4>
-                        <ul>
-                            <li>AC24.01ESE | Appliquer une procédure de fabrication pour implanter les composants matériels et/ou logiciels dans un système</li>
-                            <li>AC24.02ESE | Évaluer la conformité du système</li>
-                        </ul>
+                </div>
+            </div>
+
+            <div class="project-skills-section">
+                <p class="section-label">Compétences développées</p>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-concevoir">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                        <a href="competences.html#concevoir">Concevoir</a>
                     </div>
+                    <ul class="ac-list">
+                        <li><strong>AC21.01</strong> Proposer des solutions techniques liées à l'analyse fonctionnelle</li>
+                        <li><strong>AC21.02</strong> Dérisquer les solutions techniques retenues</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-verifier">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        <a href="competences.html#verifier">Vérifier</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC22.01</strong> Identifier les tests et mesures à mettre en place pour valider le fonctionnement d'un système</li>
+                        <li><strong>AC22.02</strong> Certifier le fonctionnement d'un nouvel équipement industriel</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-implanter">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+                        <a href="competences.html#implanter">Implanter</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC24.01ESE</strong> Appliquer une procédure de fabrication pour implanter les composants matériels et/ou logiciels dans un système</li>
+                        <li><strong>AC24.02ESE</strong> Évaluer la conformité du système</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
         <!-- ===== PROJET 3 ===== -->
-        <section class="project-box">
-            <h2>Conception et fabrication d'un mini Robot Sumo</h2>
-            <div class="project-content">
-                <img src="asset/image/mini_robot_sumo.jpg" alt="Robot Sumo" class="project-image">
-                <div class="project-description">
-                    <div class="project-section">
-                        <h3>Contexte</h3>
-                        <p>
-                            L'objectif de se projet est la réalisation du robot sumo suivant les régle officiel de tournois.
-                        </p>
+        <section id="projet-sumo" class="project-box">
+            <div class="project-header">
+                <span class="project-number">03</span>
+                <h2>Conception et fabrication d'un mini Robot Sumo</h2>
+            </div>
+
+            <img src="asset/image/mini_robot_sumo.jpg" alt="Mini Robot Sumo" class="project-image">
+
+            <div class="project-info-grid">
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
                     </div>
-                    <div class="project-section">
-                        <h3>Réalisation</h3>
-                        <p>
-                            Conception du schéma électronique, routage du PCB, modélisation 3D du chassis,
-                            programmation du microcontrôleur.
-                        </p>
+                    <h3>Contexte</h3>
+                    <p>Réalisation d'un robot sumo autonome respectant les règles officielles de tournois, intégrant détection d'adversaire et suivi de ligne.</p>
+                </div>
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
                     </div>
-                    <div class="project-section">
-                        <h3>Logiciels utilisés</h3>
-                        <p>
-                            KiCad, STM32CubeIDE, fusion360.
-                        </p>
-                    </div>
-                    <div class="project-tools">
+                    <h3>Réalisation</h3>
+                    <p>Conception du schéma électronique, routage du PCB, modélisation 3D du châssis et programmation du microcontrôleur.</p>
+                </div>
+            </div>
+
+            <div class="project-tools-section">
+                <p class="section-label">Outils utilisés</p>
+                <div class="project-tools">
+                    <div class="tool-chip">
                         <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
+                        <span>KiCad</span>
+                    </div>
+                    <div class="tool-chip">
                         <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
-                        <img src="asset/image/fusion360logo.jpg" alt="fusion360">
+                        <span>STM32CubeIDE</span>
                     </div>
-                    <div class="project-section">
-                        <h3>Compétences développées</h3>
-                        <h4>Concevoir</h4>
-                        <ul>
-                            <li>AC21.01 | Proposer des solutions techniques liées à l'analyse fonctionnelle</li>
-                            <li>AC21.02 | Dérisquer les solutions techniques retenues</li>
-                        </ul>
-                        <h4>Vérifier</h4>
-                        <ul>
-                            <li>AC22.01 | Identifier les tests et mesures à mettre en place pour valider le fonctionnement d’un système</li>
-                            <li>AC22.02 | Certifier le fonctionnement d’un nouvel équipement industriel</li>
-                        </ul>
-                        <h4>Implanter</h4>
-                        <ul>
-                            <li>AC24.01ESE | Appliquer une procédure de fabrication pour implanter les composants matériels et/ou logiciels dans un système</li>
-                            <li>AC24.02ESE | Évaluer la conformité du système</li>
-                        </ul>
+                    <div class="tool-chip">
+                        <img src="asset/image/fusion360logo.jpg" alt="Fusion 360">
+                        <span>Fusion 360</span>
                     </div>
+                </div>
+            </div>
+
+            <div class="project-skills-section">
+                <p class="section-label">Compétences développées</p>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-concevoir">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                        <a href="competences.html#concevoir">Concevoir</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC21.01</strong> Proposer des solutions techniques liées à l'analyse fonctionnelle</li>
+                        <li><strong>AC21.02</strong> Dérisquer les solutions techniques retenues</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-verifier">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        <a href="competences.html#verifier">Vérifier</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC22.01</strong> Identifier les tests et mesures à mettre en place pour valider le fonctionnement d'un système</li>
+                        <li><strong>AC22.02</strong> Certifier le fonctionnement d'un nouvel équipement industriel</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-implanter">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+                        <a href="competences.html#implanter">Implanter</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC24.01ESE</strong> Appliquer une procédure de fabrication pour implanter les composants matériels et/ou logiciels dans un système</li>
+                        <li><strong>AC24.02ESE</strong> Évaluer la conformité du système</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
         <!-- ===== PROJET 4 ===== -->
-        <section class="project-box">
-            <h2>Conception d'une carte d'égaliseur numérique</h2>
-            <div class="project-content">
-                <img src="asset/image/Carte_egaliseur_numerique.png" alt="Carte égaliseur numérique" class="project-image">
-                <div class="project-description">
-                    <div class="project-section">
-                        <h3>Contexte</h3>
-                        <p>
-                            L'objectif de se projet est la conception d'une carte mère d'égaliseur numérique, avec réception et transmission du son grace à une carte fille MIKROE-506 et protocole I2S.
-                        </p>
+        <section id="projet-egaliseur" class="project-box">
+            <div class="project-header">
+                <span class="project-number">04</span>
+                <h2>Conception d'une carte d'égaliseur numérique</h2>
+            </div>
+
+            <img src="asset/image/Carte_egaliseur_numerique.png" alt="Carte égaliseur numérique" class="project-image">
+
+            <div class="project-info-grid">
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
                     </div>
-                    <div class="project-section">
-                        <h3>Réalisation</h3>
-                        <p>
-                            Conception du schéma électronique, routage du PCB, calcule des équation de récurrence nécessaire aux filtre des égaliseurs,
-                            programmation du firmware.
-                        </p>
+                    <h3>Contexte</h3>
+                    <p>Conception d'une carte mère d'égaliseur numérique avec réception et transmission audio via une carte fille MIKROE-506 et le protocole I2S.</p>
+                </div>
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
                     </div>
-                    <div class="project-section">
-                        <h3>Logiciels utilisés</h3>
-                        <p>
-                            KiCad, STM32CubeIDE, MATLAB.
-                        </p>
-                    </div>
-                    <div class="project-tools">
+                    <h3>Réalisation</h3>
+                    <p>Conception du schéma électronique, routage du PCB, calcul des équations de récurrence pour les filtres d'égalisation et programmation du firmware I2S.</p>
+                </div>
+            </div>
+
+            <div class="project-tools-section">
+                <p class="section-label">Outils utilisés</p>
+                <div class="project-tools">
+                    <div class="tool-chip">
                         <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
+                        <span>KiCad</span>
+                    </div>
+                    <div class="tool-chip">
                         <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
+                        <span>STM32CubeIDE</span>
+                    </div>
+                    <div class="tool-chip">
                         <img src="asset/image/matlab_logo.jpeg" alt="MATLAB">
+                        <span>MATLAB</span>
                     </div>
-                    <div class="project-section">
-                        <h3>Compétences développées</h3>
-                        <h4>Concevoir</h4>
-                        <ul>
-                            <li>AC21.01 | Proposer des solutions techniques liées à l'analyse fonctionnelle</li>
-                            <li>AC21.02 | Dérisquer les solutions techniques retenues</li>
-                        </ul>
-                        <h4>Vérifier</h4>
-                        <ul>
-                            <li>AC22.01 | Identifier les tests et mesures à mettre en place pour valider le fonctionnement d’un système</li>
-                            <li>AC22.02 | Certifier le fonctionnement d’un nouvel équipement industriel</li>
-                        </ul>
-                        <h4>Implanter</h4>
-                        <ul>
-                            <li>AC24.01ESE | Appliquer une procédure de fabrication pour implanter les composants matériels et/ou logiciels dans un système</li>
-                            <li>AC24.02ESE | Évaluer la conformité du système</li>
-                        </ul>
+                </div>
+            </div>
+
+            <div class="project-skills-section">
+                <p class="section-label">Compétences développées</p>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-concevoir">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                        <a href="competences.html#concevoir">Concevoir</a>
                     </div>
+                    <ul class="ac-list">
+                        <li><strong>AC21.01</strong> Proposer des solutions techniques liées à l'analyse fonctionnelle</li>
+                        <li><strong>AC21.02</strong> Dérisquer les solutions techniques retenues</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-verifier">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        <a href="competences.html#verifier">Vérifier</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC22.01</strong> Identifier les tests et mesures à mettre en place pour valider le fonctionnement d'un système</li>
+                        <li><strong>AC22.02</strong> Certifier le fonctionnement d'un nouvel équipement industriel</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-implanter">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+                        <a href="competences.html#implanter">Implanter</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC24.01ESE</strong> Appliquer une procédure de fabrication pour implanter les composants matériels et/ou logiciels dans un système</li>
+                        <li><strong>AC24.02ESE</strong> Évaluer la conformité du système</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
         <!-- ===== PROJET 5 ===== -->
-        <section class="project-box">
-            <h2>Développement du prototype d’un système de mesure de la qualité de l’air connecté</h2>
-            <div class="project-content">
-                <img src="asset/image/capteurENS160.jpg" alt="Qualité de l'air connecté" class="project-image">
-                <div class="project-description">
-                    <div class="project-section">
-                        <h3>Contexte</h3>
-                        <p>
-                            l’objectif de ce projet est le développement d’un système de mesure de la qualité de l’air
-                            connecté. Ce système constitué de plusieurs capteurs autonomes devra permettre de centraliser
-                            toutes les mesures sur une base de données pour pouvoir les visualiser.
-                        </p>
+        <section id="projet-air" class="project-box">
+            <div class="project-header">
+                <span class="project-number">05</span>
+                <h2>Développement d'un système de mesure de la qualité de l'air connecté</h2>
+            </div>
+
+            <img src="asset/image/capteurENS160.jpg" alt="Système qualité de l'air connecté" class="project-image">
+
+            <div class="project-info-grid">
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
                     </div>
-                    <div class="project-section">
-                        <h3>Réalisation</h3>
-                        <p>
-                            Conception du schéma électronique, routage du PCB, programmation du firmware des capteurs, chiffrement des données envoie des donnée.
-                            Programmation du firmware de réception des donnée, déchiffrement des données, stockage des donées sur une base de données local.
-                        </p>
+                    <h3>Contexte</h3>
+                    <p>Développement d'un système de mesure de la qualité de l'air, constitué de plusieurs capteurs autonomes centralisant les données vers une base de données pour visualisation.</p>
+                </div>
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
                     </div>
-                    <div class="project-section">
-                        <h3>Logiciels utilisés</h3>
-                        <p>
-                            KiCad, STM32CubeIDE, Qt Creator, DB Browser(SQLite).
-                        </p>
-                    </div>
-                    <div class="project-tools">
+                    <h3>Réalisation</h3>
+                    <p>Conception du PCB, firmware capteurs avec chiffrement AES/RSA, firmware de réception, déchiffrement et stockage des données dans une base SQLite locale.</p>
+                </div>
+            </div>
+
+            <div class="project-tools-section">
+                <p class="section-label">Outils utilisés</p>
+                <div class="project-tools">
+                    <div class="tool-chip">
                         <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
+                        <span>KiCad</span>
+                    </div>
+                    <div class="tool-chip">
                         <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
-                        <img src="asset/image/qt_logo.png" alt="Qt_Creator">
-                        <img src="asset/image/sqlitebrowser.svg" alt="sqlitebrowser">
+                        <span>STM32CubeIDE</span>
                     </div>
-                    <div class="project-section">
-                        <h3>Compétences développées</h3>
-                        <h4>Concevoir</h4>
-                        <ul>
-                            <li>AC31.01 | Contribuer à la rédaction d'un cahier des charges</li>
-                            <li>AC31.02 | Prouver la pertinence de ses choix technologiques</li>
-                            <li>AC31.03 | Rédiger un dossier de conception</li>
-                        </ul>
-                        <h4>Vérifier</h4>
-                        <ul>
-                            <li>AC32.01 | Evaluer la cause racine d’un dysfonctionnement</li>
-                            <li>AC32.02 | Proposer une solution corrective à un dysfonctionnement</li>
-                            <li>AC32.03 | Produire une procédure d’essais pour valider la conformité d’un système</li>
-                        </ul>
-                        <h4>Implanter</h4>
-                        <ul>
-                            <li>AC34.01ESE | Produire une procédure d’installation et de mise en service d’un systèm</li>
-                            <li>AC34.02ESE | Exécuter la mise en service d’un système en respectant la procédure</li>
-                            <li>AC34.03ESE | Produire le dossier de conformité du système en gérant le versionnage</li>
-                        </ul>
+                    <div class="tool-chip">
+                        <img src="asset/image/qt_logo.png" alt="Qt Creator">
+                        <span>Qt Creator</span>
                     </div>
+                    <div class="tool-chip">
+                        <img src="asset/image/sqlitebrowser.svg" alt="DB Browser SQLite">
+                        <span>DB Browser (SQLite)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-skills-section">
+                <p class="section-label">Compétences développées</p>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-concevoir">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                        <a href="competences.html#concevoir">Concevoir</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC31.01</strong> Contribuer à la rédaction d'un cahier des charges</li>
+                        <li><strong>AC31.02</strong> Prouver la pertinence de ses choix technologiques</li>
+                        <li><strong>AC31.03</strong> Rédiger un dossier de conception</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-verifier">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        <a href="competences.html#verifier">Vérifier</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC32.01</strong> Évaluer la cause racine d'un dysfonctionnement</li>
+                        <li><strong>AC32.02</strong> Proposer une solution corrective à un dysfonctionnement</li>
+                        <li><strong>AC32.03</strong> Produire une procédure d'essais pour valider la conformité d'un système</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-implanter">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+                        <a href="competences.html#implanter">Implanter</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC34.01ESE</strong> Produire une procédure d'installation et de mise en service d'un système</li>
+                        <li><strong>AC34.02ESE</strong> Exécuter la mise en service d'un système en respectant la procédure</li>
+                        <li><strong>AC34.03ESE</strong> Produire le dossier de conformité du système en gérant le versionnage</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
         <!-- ===== PROJET 6 ===== -->
-        <section class="project-box">
-            <h2>Conception et fabrication d'un Robot labyrinthe</h2>
-            <div class="project-content">
-                <img src="asset/image/Robot_labyrinthe_face_avant.jpg" alt="Robot labyrinthe" class="project-image">
-                <div class="project-description">
-                    <div class="project-section">
-                        <h3>Contexte</h3>
-                        <p>
-                            L'objectif de se projet est la conception et fabrication d'un robot labyrinthe suivant les règle de tournois officiels.
-                        </p>
+        <section id="projet-labyrinthe" class="project-box">
+            <div class="project-header">
+                <span class="project-number">06</span>
+                <h2>Conception et fabrication d'un Robot labyrinthe</h2>
+            </div>
+
+            <img src="asset/image/Robot_labyrinthe_face_avant.jpg" alt="Robot labyrinthe" class="project-image">
+
+            <div class="project-info-grid">
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
                     </div>
-                    <div class="project-section">
-                        <h3>Réalisation</h3>
-                        <p>
-                            Conception du schéma électronique, routage du PCB, modélisation 3D du chassis et
-                            programmation du firmware sous free-RTOS.
-                        </p>
+                    <h3>Contexte</h3>
+                    <p>Conception et fabrication d'un robot capable de résoudre un labyrinthe de manière autonome, selon les règles de tournois officiels.</p>
+                </div>
+                <div class="project-info-card">
+                    <div class="project-info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
                     </div>
-                    <div class="project-section">
-                        <h3>Logiciels utilisés</h3>
-                        <p>
-                            KiCad, STM32CubeIDE, fusion360.
-                        </p>
-                    </div>
-                    <div class="project-tools">
+                    <h3>Réalisation</h3>
+                    <p>Conception du schéma électronique, routage du PCB, modélisation 3D du châssis et programmation du firmware sous FreeRTOS.</p>
+                </div>
+            </div>
+
+            <div class="project-tools-section">
+                <p class="section-label">Outils utilisés</p>
+                <div class="project-tools">
+                    <div class="tool-chip">
                         <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
-                        <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
-                        <img src="asset/image/fusion360logo.jpg" alt="fusion360">
+                        <span>KiCad</span>
                     </div>
-                    <div class="project-section">
-                        <h3>Compétences développées</h3>
-                        <h4>Concevoir</h4>
-                        <ul>
-                            <li>AC31.01 | Contribuer à la rédaction d'un cahier des charges</li>
-                            <li>AC31.02 | Prouver la pertinence de ses choix technologiques</li>
-                            <li>AC31.03 | Rédiger un dossier de conception</li>
-                        </ul>
-                        <h4>Vérifier</h4>
-                        <ul>
-                            <li>AC32.01 | Evaluer la cause racine d’un dysfonctionnement</li>
-                            <li>AC32.02 | Proposer une solution corrective à un dysfonctionnement</li>
-                            <li>AC32.03 | Produire une procédure d’essais pour valider la conformité d’un système</li>
-                        </ul>
-                        <h4>Implanter</h4>
-                        <ul>
-                            <li>AC34.01ESE | Produire une procédure d’installation et de mise en service d’un systèm</li>
-                            <li>AC34.02ESE | Exécuter la mise en service d’un système en respectant la procédure</li>
-                            <li>AC34.03ESE | Produire le dossier de conformité du système en gérant le versionnage</li>
-                        </ul>
+                    <div class="tool-chip">
+                        <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
+                        <span>STM32CubeIDE</span>
+                    </div>
+                    <div class="tool-chip">
+                        <img src="asset/image/fusion360logo.jpg" alt="Fusion 360">
+                        <span>Fusion 360</span>
                     </div>
                 </div>
             </div>
-        </section>        <!-- Tu peux dupliquer la section "project-box" pour chaque projet supplémentaire -->
+
+            <div class="project-skills-section">
+                <p class="section-label">Compétences développées</p>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-concevoir">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                        <a href="competences.html#concevoir">Concevoir</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC31.01</strong> Contribuer à la rédaction d'un cahier des charges</li>
+                        <li><strong>AC31.02</strong> Prouver la pertinence de ses choix technologiques</li>
+                        <li><strong>AC31.03</strong> Rédiger un dossier de conception</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-verifier">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        <a href="competences.html#verifier">Vérifier</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC32.01</strong> Évaluer la cause racine d'un dysfonctionnement</li>
+                        <li><strong>AC32.02</strong> Proposer une solution corrective à un dysfonctionnement</li>
+                        <li><strong>AC32.03</strong> Produire une procédure d'essais pour valider la conformité d'un système</li>
+                    </ul>
+                </div>
+                <div class="project-skill-group">
+                    <div class="skill-tag skill-implanter">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+                        <a href="competences.html#implanter">Implanter</a>
+                    </div>
+                    <ul class="ac-list">
+                        <li><strong>AC34.01ESE</strong> Produire une procédure d'installation et de mise en service d'un système</li>
+                        <li><strong>AC34.02ESE</strong> Exécuter la mise en service d'un système en respectant la procédure</li>
+                        <li><strong>AC34.03ESE</strong> Produire le dossier de conformité du système en gérant le versionnage</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
     </div>
 </body>
 </html>

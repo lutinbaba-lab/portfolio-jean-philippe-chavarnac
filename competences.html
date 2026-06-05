@@ -2,27 +2,780 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Compétences</title>
+    <title>Compétences – Jean-Philippe Chavarnac</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<nav class="navbar">
-    <div class="logo">
-        <img src="assets/image/logo.png" alt="Logo" class="logo-img">
+    <!-- ===== IMAGE EN MARGES ===== -->
+    <div class="side-margins">
+        <div class="left-margin"></div>
+        <div class="right-margin"></div>
     </div>
-    <ul class="nav-links">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="projets.html">Projets</a></li>
-        <li><a href="stage.html">Stage en entreprise</a></li>
-        <li><a href="competences.html">Compétences</a></li>
-    </ul>
-</nav>
 
-<header>
-    <h1>Compétences</h1>
-    <p>Page en cours de construction</p>
-</header>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="asset/image/logo.png" alt="Logo" class="logo-img">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="stage.html">Stage en entreprise</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+        </ul>
+    </nav>
 
+    <!-- ===== CONTENU PRINCIPAL ===== -->
+    <div class="main-content">
+        <!-- ===== INTRO ===== -->
+        <header id="introCompetences">
+            <div class="section-intro">
+                <h1>Mes compétences</h1>
+                <p>
+                    En tant qu'étudiant en BUT Génie Électrique et Informatique Industrielle (GEII) avec la spécialité <strong>Électronique et Systèmes Embarqués (ESE)</strong>, ma formation est structurée autour du référentiel national de compétences de l'IUT de Montpellier-Sète. 
+                </p>
+                <p>
+                    Découvrez ci-dessous les quatre grandes compétences (trois compétences communes et une spécifique à mon parcours) acquises et validées de manière progressive à travers mes projets, mes travaux pratiques et mes expériences professionnelles.
+                </p>
+                <p style="text-align: center; color: #4fc3f7; font-weight: bold; margin-top: 15px; font-size: 1.05em;">
+                    💡 Cliquez sur les cartes de niveau (B.U.T 1, 2, 3) pour afficher le résumé de mes projets associés !
+                </p>
+            </div>
+        </header>
+
+        <!-- ===== SECTION CONCEVOIR ===== -->
+        <section id="concevoir" class="competence-box">
+            <div class="competence-header">
+                <div class="competence-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                </div>
+                <h2>Concevoir la partie GEII d’un système</h2>
+            </div>
+            <p class="competence-desc">
+                Analyser, modéliser et développer des architectures matérielles (schémas électroniques, routage PCB) et logicielles (firmwares embarqués bas niveau) en répondant à des exigences techniques et normatives.
+            </p>
+
+            <!-- Situations professionnelles -->
+            <div class="situations-container">
+                <h4>Exemples de mises en situation professionnelles :</h4>
+                <ul>
+                    <li>Conseil au client en menant une étude de faisabilité à partir d'un cahier des charges</li>
+                    <li>Chiffrage pour la réalisation d'un prototype ou d’un système industriel en GEII</li>
+                    <li>Conception d’un prototype ou d’un sous-système à partir d’un cahier des charges partiel</li>
+                </ul>
+            </div>
+
+            <div class="levels-container">
+                <!-- B.U.T 1 -->
+                <div class="level-card" data-competence="concevoir" data-level="1">
+                    <span class="level-badge badge-lvl1">B.U.T 1</span>
+                    <h3>Initiation</h3>
+                    <p class="level-definition">Mener une conception partielle intégrant une démarche projet.</p>
+                    <ul class="ac-list">
+                        <li><strong>AC11.01</strong> Produire une analyse fonctionnelle d’un système simple</li>
+                        <li><strong>AC11.02</strong> Réaliser un prototype pour des solutions techniques matériel et/ou logiciel</li>
+                        <li><strong>AC11.03</strong> Rédiger un dossier de fabrication à partir d'un dossier de conception</li>
+                    </ul>
+                </div>
+
+                <!-- B.U.T 2 -->
+                <div class="level-card" data-competence="concevoir" data-level="2">
+                    <span class="level-badge badge-lvl2">B.U.T 2</span>
+                    <h3>Développement</h3>
+                    <p class="level-definition">Concevoir un système en fiabilisant les solutions proposées.</p>
+                    <ul class="ac-list">
+                        <li><strong>AC21.01</strong> Proposer des solutions techniques liées à l'analyse fonctionnelle</li>
+                        <li><strong>AC21.02</strong> Dérisquer les solutions techniques retenues</li>
+                    </ul>
+                </div>
+
+                <!-- B.U.T 3 -->
+                <div class="level-card" data-competence="concevoir" data-level="3">
+                    <span class="level-badge badge-lvl3">B.U.T 3</span>
+                    <h3>Maîtrise</h3>
+                    <p class="level-definition">Concevoir un système en adoptant une approche sélective dans ses choix technologiques.</p>
+                    <ul class="ac-list">
+                        <li><strong>AC31.01</strong> Contribuer à la rédaction d'un cahier des charges</li>
+                        <li><strong>AC31.02</strong> Prouver la pertinence de ses choix technologiques</li>
+                        <li><strong>AC31.03</strong> Rédiger un dossier de conception</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SECTION VERIFIER ===== -->
+        <section id="verifier" class="competence-box">
+            <div class="competence-header">
+                <div class="competence-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                </div>
+                <h2>Vérifier la partie GEII d’un système</h2>
+            </div>
+            <p class="competence-desc">
+                Élaborer et exécuter des protocoles de mesures et d'essais, diagnostiquer et analyser les dysfonctionnements de prototypes, et valider la conformité de systèmes complets.
+            </p>
+
+            <!-- Situations professionnelles -->
+            <div class="situations-container">
+                <h4>Exemples de mises en situation professionnelles :</h4>
+                <ul>
+                    <li>Mise en place d'un protocole de tests et de mesures dans les systèmes embarqués</li>
+                    <li>Mise en place d'un protocole de tests et de mesures dans les process industriels</li>
+                    <li>Mise en place d'un protocole de tests et de mesures dans la gestion de l'énergie</li>
+                </ul>
+            </div>
+
+            <div class="levels-container">
+                <!-- B.U.T 1 -->
+                <div class="level-card" data-competence="verifier" data-level="1">
+                    <span class="level-badge badge-lvl1">B.U.T 1</span>
+                    <h3>Initiation</h3>
+                    <p class="level-definition">Effectuer les tests et mesures nécessaires à une vérification d’un système.</p>
+                    <ul class="ac-list">
+                        <li><strong>AC12.01</strong> Appliquer une procédure d’essais</li>
+                        <li><strong>AC12.02</strong> Identifier un dysfonctionnement</li>
+                        <li><strong>AC12.03</strong> Décrire un dysfonctionnement</li>
+                    </ul>
+                </div>
+
+                <!-- B.U.T 2 -->
+                <div class="level-card" data-competence="verifier" data-level="2">
+                    <span class="level-badge badge-lvl2">B.U.T 2</span>
+                    <h3>Développement</h3>
+                    <p class="level-definition">Mettre en place un protocole de tests pour valider le fonctionnement d’un système.</p>
+                    <ul class="ac-list">
+                        <li><strong>AC22.01</strong> Identifier les tests et mesures à mettre en place pour valider le fonctionnement d’un système</li>
+                        <li><strong>AC22.02</strong> Certifier le fonctionnement d’un nouvel équipement industriel</li>
+                    </ul>
+                </div>
+
+                <!-- B.U.T 3 -->
+                <div class="level-card" data-competence="verifier" data-level="3">
+                    <span class="level-badge badge-lvl3">B.U.T 3</span>
+                    <h3>Maîtrise</h3>
+                    <p class="level-definition">Élaborer une procédure intégrant une démarche qualité pour valider le fonctionnement d’un système.</p>
+                    <ul class="ac-list">
+                        <li><strong>AC32.01</strong> Évaluer la cause racine d’un dysfonctionnement</li>
+                        <li><strong>AC32.02</strong> Proposer une solution corrective à un dysfonctionnement</li>
+                        <li><strong>AC32.03</strong> Produire une procédure d’essais pour valider la conformité d’un système</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SECTION MAINTENIR ===== -->
+        <section id="maintenir" class="competence-box">
+            <div class="competence-header">
+                <div class="competence-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tool"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                </div>
+                <h2>Assurer le maintien en condition opérationnelle d'un système</h2>
+            </div>
+            <p class="competence-desc">
+                Diagnostiquer les pannes, effectuer des opérations de maintenance préventive et corrective, et définir une stratégie de maintenance globale pour des équipements industriels ou embarqués.
+            </p>
+
+            <!-- Situations professionnelles -->
+            <div class="situations-container">
+                <h4>Exemples de mises en situation professionnelles :</h4>
+                <ul>
+                    <li>Maintenance corrective, préventive et améliorative dans les systèmes embarqués</li>
+                    <li>Maintenance corrective, préventive et améliorative dans les process industriels</li>
+                    <li>Maintenance corrective, préventive et améliorative dans les domaines de l'énergie</li>
+                </ul>
+            </div>
+
+            <div class="levels-container">
+                <!-- B.U.T 1 -->
+                <div class="level-card level-empty" data-competence="maintenir" data-level="1">
+                    <span class="level-badge badge-lvl1 empty-badge">B.U.T 1</span>
+                    <h3>Initiation</h3>
+                    <p class="empty-text">Ce niveau regroupe l'assimilation des concepts généraux de maintenance industrielle et d'instrumentation préparant aux interventions techniques directes.</p>
+                </div>
+
+                <!-- B.U.T 2 -->
+                <div class="level-card" data-competence="maintenir" data-level="2">
+                    <span class="level-badge badge-lvl2">B.U.T 2</span>
+                    <h3>Développement</h3>
+                    <p class="level-definition">Intervenir sur un système pour effectuer une opération de maintenance.</p>
+                    <ul class="ac-list">
+                        <li><strong>AC23.01</strong> Exécuter l’entretien et le contrôle d’un système en respectant une procédure</li>
+                        <li><strong>AC23.02</strong> Exécuter une opération de maintenance (corrective, préventive, améliorative)</li>
+                        <li><strong>AC23.03</strong> Diagnostiquer un dysfonctionnement dans un système</li>
+                        <li><strong>AC23.04</strong> Identifier la cause racine du dysfonctionnement</li>
+                    </ul>
+                </div>
+
+                <!-- B.U.T 3 -->
+                <div class="level-card" data-competence="maintenir" data-level="3">
+                    <span class="level-badge badge-lvl3">B.U.T 3</span>
+                    <h3>Maîtrise</h3>
+                    <p class="level-definition">Mettre en place une stratégie de maintenance pour garantir un fonctionnement optimal.</p>
+                    <ul class="ac-list">
+                        <li><strong>AC33.01</strong> Proposer une solution de maintenance</li>
+                        <li><strong>AC33.02</strong> Évaluer les coûts d’indisponibilité et de maintenance d’un système</li>
+                        <li><strong>AC33.03</strong> Produire une procédure de maintenance</li>
+                        <li><strong>AC33.04</strong> Proposer un appui technique aux différents acteurs à l'échelle nationale et internationale</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SECTION IMPLANTER ===== -->
+        <section id="implanter" class="competence-box">
+            <div class="competence-header">
+                <div class="competence-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cpu"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+                </div>
+                <h2>Implanter un système matériel ou logiciel (Spé. ESE)</h2>
+            </div>
+            <p class="competence-desc">
+                Intégrer et fabriquer des systèmes matériels, déployer et installer des briques logicielles, assurer la mise en service sur site et rédiger les livrables de conformité.
+            </p>
+
+            <!-- Situations professionnelles -->
+            <div class="situations-container">
+                <h4>Exemples de mises en situation professionnelles :</h4>
+                <ul>
+                    <li>Implantation d’une solution matérielle ou logicielle dans une partie ou sous-partie d’un système</li>
+                    <li>Intervention chez un client pour la mise en place d’un système</li>
+                    <li>Homologation d’un protocole de réalisation pour un nouvel équipement industriel</li>
+                </ul>
+            </div>
+
+            <div class="levels-container">
+                <!-- B.U.T 1 -->
+                <div class="level-card level-empty" data-competence="implanter" data-level="1">
+                    <span class="level-badge badge-lvl1 empty-badge">B.U.T 1</span>
+                    <h3>Initiation</h3>
+                    <p class="empty-text">Ce niveau valide les apprentissages pratiques d'atelier (soudure, prototypage de base) nécessaires avant d'aborder l'implantation et la qualification qualité des niveaux supérieurs.</p>
+                </div>
+
+                <!-- B.U.T 2 -->
+                <div class="level-card" data-competence="implanter" data-level="2">
+                    <span class="level-badge badge-lvl2">B.U.T 2</span>
+                    <h3>Développement</h3>
+                    <p class="level-definition">Réaliser un système en mettant en place une démarche qualité en conformité avec le dossier de fabrication.</p>
+                    <ul class="ac-list">
+                        <li><strong>AC24.01ESE</strong> Appliquer une procédure de fabrication pour implanter les composants matériels et/ou logiciels dans un système</li>
+                        <li><strong>AC24.02ESE</strong> Évaluer la conformité du système</li>
+                    </ul>
+                </div>
+
+                <!-- B.U.T 3 -->
+                <div class="level-card" data-competence="implanter" data-level="3">
+                    <span class="level-badge badge-lvl3">B.U.T 3</span>
+                    <h3>Maîtrise</h3>
+                    <p class="level-definition">Interagir avec les différents acteurs lors de l’installation et de la mise en service d’un système, dans une démarche qualité.</p>
+                    <ul class="ac-list">
+                        <li><strong>AC34.01ESE</strong> Produire une procédure d’installation et de mise en service d’un système</li>
+                        <li><strong>AC34.02ESE</strong> Exécuter la mise en service d’un système en respectant la procédure</li>
+                        <li><strong>AC34.03ESE</strong> Produire le dossier de conformité du système en gérant le versionnage</li>
+                    </ul>
+                </div>
+            </div>
+        <!-- ===== SECTION COMPÉTENCES TRANSVERSALES ===== -->
+        <section id="competences-transversales" class="competence-box">
+            <div class="competence-header">
+                <div class="competence-icon competence-icon-tools">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.07 4.93a10 10 0 0 1 1.41 13.48l-1.41-1.41M4.93 19.07a10 10 0 0 1-1.41-13.48l1.41 1.41M15.54 8.46l-1.41-1.41M8.46 15.54l-1.41-1.41M12 2v2M12 20v2M2 12h2M20 12h2"></path></svg>
+                </div>
+                <h2>Compétences transversales</h2>
+            </div>
+            <p class="competence-desc">
+                Au-delà des compétences du référentiel national, ma formation et mes projets m'ont permis de maîtriser un ensemble d'outils logiciels et de langages de programmation directement appliqués dans mes réalisations.
+            </p>
+
+            <!-- ===== LANGAGES DE PROGRAMMATION ===== -->
+            <div class="transversal-group">
+                <div class="transversal-group-header">
+                    <div class="transversal-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </div>
+                    <h3>Langages de programmation</h3>
+                </div>
+                <div class="skill-bars-grid">
+
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-meta">
+                            <span class="skill-bar-name">C embarqué</span>
+                            <span class="skill-bar-level-label">Avancé</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill skill-bar-advanced" style="width: 80%"></div>
+                        </div>
+                        <p class="skill-bar-desc">Utilisé pour tous les firmwares STM32 : gestion des périphériques (I²C, SPI, UART, CAN, I2S, ADC, TIM), DMA, interruptions, FreeRTOS.</p>
+                    </div>
+
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-meta">
+                            <span class="skill-bar-name">C++</span>
+                            <span class="skill-bar-level-label">Intermédiaire</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill skill-bar-intermediate" style="width: 60%"></div>
+                        </div>
+                        <p class="skill-bar-desc">Utilisé dans Qt Creator pour le développement de l'interface graphique du projet de qualité de l'air (affichage des données SQLite, gestion des événements UI).</p>
+                    </div>
+
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-meta">
+                            <span class="skill-bar-name">Python</span>
+                            <span class="skill-bar-level-label">Intermédiaire</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill skill-bar-intermediate" style="width: 60%"></div>
+                        </div>
+                        <p class="skill-bar-desc">Automation de cycles machine (laveuse de fût, Raspberry Pi), commande logicielle USB multi-plateforme (pyusb / ctypes DLL) lors des stages.</p>
+                    </div>
+
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-meta">
+                            <span class="skill-bar-name">MATLAB / Simulink</span>
+                            <span class="skill-bar-level-label">Intermédiaire</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill skill-bar-intermediate" style="width: 55%"></div>
+                        </div>
+                        <p class="skill-bar-desc">Calcul des équations de récurrence des filtres numériques (égaliseur), simulation et vérification des réponses fréquentielles avant implémentation firmware.</p>
+                    </div>
+
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-meta">
+                            <span class="skill-bar-name">SQL (SQLite)</span>
+                            <span class="skill-bar-level-label">Notions</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill skill-bar-beginner" style="width: 35%"></div>
+                        </div>
+                        <p class="skill-bar-desc">Stockage et requêtage des mesures de qualité de l'air (capteurs ENS160) dans une base de données locale SQLite via Qt et DB Browser.</p>
+                    </div>
+
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-meta">
+                            <span class="skill-bar-name">VHDL</span>
+                            <span class="skill-bar-level-label">Intermédiaire</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill skill-bar-intermediate" style="width: 50%"></div>
+                        </div>
+                        <p class="skill-bar-desc">Description de matériel logique pour cartes FPGA (Intel Quartus, ModelSim), conception d'architectures numériques et de machines à états.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ===== LOGICIELS ===== -->
+            <div class="transversal-group">
+                <div class="transversal-group-header">
+                    <div class="transversal-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <h3>Logiciels &amp; outils</h3>
+                </div>
+
+                <div class="tools-categories">
+
+                    <!-- Électronique / PCB -->
+                    <div class="tools-category">
+                        <p class="tools-category-label">Conception électronique &amp; PCB</p>
+                        <div class="tools-chips-row">
+                            <div class="tool-chip">
+                                <img src="asset/image/Kicad_logo_new.png" alt="KiCad">
+                                <div class="tool-chip-detail">
+                                    <span>KiCad</span>
+                                    <small>Schéma + routage PCB</small>
+                                </div>
+                            </div>
+                            <div class="tool-chip">
+                                <img src="asset/image/orcad-logo-png_seeklogo-317006.webp" alt="OrCAD Capture">
+                                <div class="tool-chip-detail">
+                                    <span>OrCAD Capture</span>
+                                    <small>Saisie de schéma électrique (stage)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Développement embarqué -->
+                    <div class="tools-category">
+                        <p class="tools-category-label">Environnements de développement</p>
+                        <div class="tools-chips-row">
+                            <div class="tool-chip">
+                                <img src="asset/image/stm32.jpeg" alt="STM32CubeIDE">
+                                <div class="tool-chip-detail">
+                                    <span>STM32CubeIDE</span>
+                                    <small>Firmware STM32</small>
+                                </div>
+                            </div>
+                            <div class="tool-chip">
+                                <img src="asset/image/visual-studio-code-logo.webp" alt="Visual Studio Code">
+                                <div class="tool-chip-detail">
+                                    <span>Visual Studio Code</span>
+                                    <small>Éditeur principal &amp; PlatformIO</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modélisation 3D -->
+                    <div class="tools-category">
+                        <p class="tools-category-label">Modélisation 3D &amp; CAO mécanique</p>
+                        <div class="tools-chips-row">
+                            <div class="tool-chip">
+                                <img src="asset/image/fusion360logo.jpg" alt="Fusion 360">
+                                <div class="tool-chip-detail">
+                                    <span>Fusion 360</span>
+                                    <small>CAO 3D, châssis &amp; boîtiers</small>
+                                </div>
+                            </div>
+                            <div class="tool-chip">
+                                <img src="asset/image/autodesk-inventor-logo-png_seeklogo-482398.webp" alt="Autodesk Inventor">
+                                <div class="tool-chip-detail">
+                                    <span>Autodesk Inventor</span>
+                                    <small>Conception 3D &amp; plans mécaniques (stage)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Développement logiciel -->
+                    <div class="tools-category">
+                        <p class="tools-category-label">Développement logiciel &amp; Test</p>
+                        <div class="tools-chips-row">
+                            <div class="tool-chip">
+                                <img src="asset/image/qt_logo.png" alt="Qt Creator">
+                                <div class="tool-chip-detail">
+                                    <span>Qt Creator</span>
+                                    <small>Interface C++ (qualité de l'air)</small>
+                                </div>
+                            </div>
+                            <div class="tool-chip">
+                                <img src="asset/image/sqlitebrowser.svg" alt="DB Browser SQLite">
+                                <div class="tool-chip-detail">
+                                    <span>DB Browser (SQLite)</span>
+                                    <small>Gestion de base de données</small>
+                                </div>
+                            </div>
+                            <div class="tool-chip">
+                                <img src="asset/image/NI.webp" alt="NI LabWindows">
+                                <div class="tool-chip-detail">
+                                    <span>NI LabWindows / CVI</span>
+                                    <small>Automatisation en langage C (stage)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Calcul numérique -->
+                    <div class="tools-category">
+                        <p class="tools-category-label">Calcul &amp; simulation numérique</p>
+                        <div class="tools-chips-row">
+                            <div class="tool-chip">
+                                <img src="asset/image/mathworks-logo.png" alt="MATLAB">
+                                <div class="tool-chip-detail">
+                                    <span>MATLAB</span>
+                                    <small>Filtres numériques, simulation</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Systèmes embarqués / SBC -->
+                    <div class="tools-category">
+                        <p class="tools-category-label">Systèmes embarqués &amp; SBC</p>
+                        <div class="tools-chips-row">
+                            <div class="tool-chip">
+                                <img src="asset/image/Raspberry_Pi_logo_pillars.webp" alt="Raspberry Pi">
+                                <div class="tool-chip-detail">
+                                    <span>Raspberry Pi</span>
+                                    <small>Automation &amp; IoT (stages)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- ===== MODAL POP-UP ===== -->
+    <div id="project-modal" class="modal-overlay">
+        <div class="modal-box">
+            <span class="modal-close-btn">&times;</span>
+            <div class="modal-header">
+                <span id="modal-badge" class="level-badge">B.U.T 1</span>
+                <h2 id="modal-title">Titre du Niveau</h2>
+                <p id="modal-definition">Définition du niveau</p>
+            </div>
+            <div class="modal-body">
+                <h3>Projets associés :</h3>
+                <div id="modal-projects-list">
+                    <!-- Les cartes projet dynamiques s'injectent ici -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== JAVASCRIPT POP-UP ===== -->
+    <script>
+        const projectsData = {
+            "concevoir-1": {
+                title: "Concevoir - B.U.T 1 (Initiation)",
+                definition: "Mener une conception partielle intégrant une démarche projet.",
+                badgeClass: "badge-lvl1",
+                badgeText: "B.U.T 1",
+                projects: [
+                    {
+                        name: "Thermomètre numérique",
+                        desc: "Réalisation d'une carte fille capteur de température, routage du PCB sur KiCad et programmation du firmware sur STM32.",
+                        link: "projets.html#projet-thermometre"
+                    }
+                ]
+            },
+            "concevoir-2": {
+                title: "Concevoir - B.U.T 2 (Développement)",
+                definition: "Concevoir un système en fiabilisant les solutions proposées.",
+                badgeClass: "badge-lvl2",
+                badgeText: "B.U.T 2",
+                projects: [
+                    {
+                        name: "Carte de commande moteur DC",
+                        desc: "Conception du schéma électronique, routage du PCB de commande moteur et programmation du micrologiciel CAN/moteur.",
+                        link: "projets.html#projet-moteur"
+                    },
+                    {
+                        name: "Mini Robot Sumo",
+                        desc: "Conception du schéma électronique, routage du PCB et modélisation 3D du châssis.",
+                        link: "projets.html#projet-sumo"
+                    },
+                    {
+                        name: "Carte d'égaliseur numérique",
+                        desc: "Conception du schéma électronique de la carte mère, routage du PCB et calculs d'équations de filtres I2S.",
+                        link: "projets.html#projet-egaliseur"
+                    }
+                ]
+            },
+            "concevoir-3": {
+                title: "Concevoir - B.U.T 3 (Maîtrise)",
+                definition: "Concevoir un système en adoptant une approche sélective dans ses choix technologiques.",
+                badgeClass: "badge-lvl3",
+                badgeText: "B.U.T 3",
+                projects: [
+                    {
+                        name: "Système de mesure de la qualité de l’air connecté",
+                        desc: "Conception du schéma, routage du PCB, programmation des capteurs autonomes, Qt Creator et base de données SQLite locale.",
+                        link: "projets.html#projet-air"
+                    },
+                    {
+                        name: "Robot labyrinthe",
+                        desc: "Conception du schéma, routage du PCB, modélisation 3D du châssis et programmation sous FreeRTOS.",
+                        link: "projets.html#projet-labyrinthe"
+                    }
+                ]
+            },
+            "verifier-1": {
+                title: "Vérifier - B.U.T 1 (Initiation)",
+                definition: "Effectuer les tests et mesures nécessaires à une vérification d’un système.",
+                badgeClass: "badge-lvl1",
+                badgeText: "B.U.T 1",
+                projects: [
+                    {
+                        name: "Thermomètre numérique",
+                        desc: "Essais de la carte capteur connectée à la carte JIPPADA, débogage firmware, et application d'une procédure d'essais.",
+                        link: "projets.html#projet-thermometre"
+                    }
+                ]
+            },
+            "verifier-2": {
+                title: "Vérifier - B.U.T 2 (Développement)",
+                definition: "Mettre en place un protocole de tests pour valider le fonctionnement d’un système.",
+                badgeClass: "badge-lvl2",
+                badgeText: "B.U.T 2",
+                projects: [
+                    {
+                        name: "Carte de commande moteur DC",
+                        desc: "Validation des trames sur bus CAN et tests et mesures de la puissance du moteur.",
+                        link: "projets.html#projet-moteur"
+                    },
+                    {
+                        name: "Mini Robot Sumo",
+                        desc: "Tests de capteurs de distance et de ligne, étalonnage des moteurs, qualification du robot.",
+                        link: "projets.html#projet-sumo"
+                    },
+                    {
+                        name: "Carte d'égaliseur numérique",
+                        desc: "Validation de la communication I2S, et tests de filtrage audio sous oscilloscope.",
+                        link: "projets.html#projet-egaliseur"
+                    }
+                ]
+            },
+            "verifier-3": {
+                title: "Vérifier - B.U.T 3 (Maîtrise)",
+                definition: "Élaborer une procédure intégrant une démarche qualité pour valider le fonctionnement d’un système.",
+                badgeClass: "badge-lvl3",
+                badgeText: "B.U.T 3",
+                projects: [
+                    {
+                        name: "Système de mesure de la qualité de l’air connecté",
+                        desc: "Débogage chiffrement AES/RSA, tests d'émission radio, validation base de données SQLite et analyse de cause racine.",
+                        link: "projets.html#projet-air"
+                    },
+                    {
+                        name: "Robot labyrinthe",
+                        desc: "Validation de l'ordonnancement FreeRTOS des tâches capteurs/moteurs, et tests en conditions réelles.",
+                        link: "projets.html#projet-labyrinthe"
+                    }
+                ]
+            },
+            "maintenir-1": {
+                title: "Maintenir - B.U.T 1 (Initiation)",
+                definition: "Assimilation des concepts généraux de maintenance industrielle et d'instrumentation.",
+                badgeClass: "badge-lvl1 empty-badge",
+                badgeText: "B.U.T 1",
+                projects: []
+            },
+            "maintenir-2": {
+                title: "Maintenir - B.U.T 2 (Développement)",
+                definition: "Intervenir sur un système pour effectuer une opération de maintenance.",
+                badgeClass: "badge-lvl2",
+                badgeText: "B.U.T 2",
+                projects: []
+            },
+            "maintenir-3": {
+                title: "Maintenir - B.U.T 3 (Maîtrise)",
+                definition: "Mettre en place une stratégie de maintenance pour garantir un fonctionnement optimal.",
+                badgeClass: "badge-lvl3",
+                badgeText: "B.U.T 3",
+                projects: []
+            },
+            "implanter-1": {
+                title: "Implanter - B.U.T 1 (Initiation)",
+                definition: "Validation des apprentissages pratiques d'atelier nécessaires avant d'aborder l'implantation active.",
+                badgeClass: "badge-lvl1 empty-badge",
+                badgeText: "B.U.T 1",
+                projects: []
+            },
+            "implanter-2": {
+                title: "Implanter - B.U.T 2 (Développement)",
+                definition: "Réaliser un système en mettant en place une démarche qualité en conformité avec le dossier de fabrication.",
+                badgeClass: "badge-lvl2",
+                badgeText: "B.U.T 2",
+                projects: [
+                    {
+                        name: "Carte de commande moteur DC",
+                        desc: "Soudure CMS, implantation logicielle des pilotes CAN/moteur et évaluation de conformité.",
+                        link: "projets.html#projet-moteur"
+                    },
+                    {
+                        name: "Mini Robot Sumo",
+                        desc: "Implantation des composants matériels sur PCB, impression 3D du châssis et intégration soft/hard.",
+                        link: "projets.html#projet-sumo"
+                    },
+                    {
+                        name: "Carte d'égaliseur numérique",
+                        desc: "Implantation des briques logicielles I2S et câblage de la carte fille MIKROE-506.",
+                        link: "projets.html#projet-egaliseur"
+                    }
+                ]
+            },
+            "implanter-3": {
+                title: "Implanter - B.U.T 3 (Maîtrise)",
+                definition: "Interagir avec les différents acteurs lors de l’installation et de la mise en service d’un système, dans une démarche qualité.",
+                badgeClass: "badge-lvl3",
+                badgeText: "B.U.T 3",
+                projects: [
+                    {
+                        name: "Système de mesure de la qualité de l’air connecté",
+                        desc: "Procédure d’installation et mise en service du hub local et des capteurs, dossier de conformité, versionnage Git.",
+                        link: "projets.html#projet-air"
+                    },
+                    {
+                        name: "Robot labyrinthe",
+                        desc: "Implantation du système temps réel FreeRTOS, assemblage final mécanique/électronique, mise en service sur labyrinthe de test.",
+                        link: "projets.html#projet-labyrinthe"
+                    }
+                ]
+            }
+        };
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const modal = document.getElementById("project-modal");
+            const closeBtn = document.querySelector(".modal-close-btn");
+            const modalBadge = document.getElementById("modal-badge");
+            const modalTitle = document.getElementById("modal-title");
+            const modalDef = document.getElementById("modal-definition");
+            const projectsList = document.getElementById("modal-projects-list");
+
+            // Ouvrir le modal au clic sur une carte
+            document.querySelectorAll(".level-card").forEach(card => {
+                card.addEventListener("click", () => {
+                    const competence = card.getAttribute("data-competence");
+                    const level = card.getAttribute("data-level");
+                    const key = `${competence}-${level}`;
+                    const data = projectsData[key];
+
+                    if (data) {
+                        // Contenu du modal
+                        modalBadge.className = `level-badge ${data.badgeClass}`;
+                        modalBadge.textContent = data.badgeText;
+                        modalTitle.textContent = data.title;
+                        modalDef.textContent = data.definition;
+
+                        // Remplissage des projets
+                        projectsList.innerHTML = "";
+                        if (data.projects && data.projects.length > 0) {
+                            data.projects.forEach(proj => {
+                                const cardHTML = `
+                                    <div class="modal-project-card">
+                                        <h4>${proj.name}</h4>
+                                        <p>${proj.desc}</p>
+                                        <a href="${proj.link}" class="modal-project-link">
+                                            Voir le projet
+                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 2px;"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                        </a>
+                                    </div>
+                                `;
+                                projectsList.insertAdjacentHTML("beforeend", cardHTML);
+                            });
+                        } else {
+                            projectsList.innerHTML = `
+                                <div class="modal-empty-state">
+                                    Aucun projet spécifique n'est directement associé à ce niveau de compétence dans ce portfolio (principalement validé lors de TP académiques ou d'évaluations théoriques).
+                                </div>
+                            `;
+                        }
+
+                        // Afficher le modal
+                        modal.classList.add("active");
+                        document.body.style.overflow = "hidden"; // Bloque le scroll arrière
+                    }
+                });
+            });
+
+            // Fermer le modal
+            const closeModal = () => {
+                modal.classList.remove("active");
+                document.body.style.overflow = ""; // Restaure le scroll arrière
+            };
+
+            closeBtn.addEventListener("click", closeModal);
+            modal.addEventListener("click", (e) => {
+                if (e.target === modal) {
+                    closeModal();
+                }
+            });
+
+            // Touche Echap
+            document.addEventListener("keydown", (e) => {
+                if (e.key === "Escape" && modal.classList.contains("active")) {
+                    closeModal();
+                }
+            });
+        });
+    </script>
 </body>
 </html>
