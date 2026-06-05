@@ -1374,3 +1374,152 @@ header {
         padding-top: 0;
     }
 }
+
+/* ===== FIL CHRONOLOGIQUE (TIMELINE) ===== */
+#timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+#timeline h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+.timeline-container {
+    position: relative;
+    max-width: 800px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px 0;
+}
+
+/* La ligne verticale au centre */
+.timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #e0e0e0;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+}
+
+/* Conteneur individuel d'étape */
+.timeline-item {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/* Le point sur la ligne */
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: -8px;
+    background-color: #ffffff;
+    border: 4px solid #4fc3f7;
+    top: 25px;
+    border-radius: 50%;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+/* Positionnement alterné */
+.timeline-item.left {
+    left: 0;
+    text-align: right;
+}
+
+.timeline-item.right {
+    left: 50%;
+    text-align: left;
+}
+
+.timeline-item.right::after {
+    left: -8px;
+}
+
+/* Le contenu de la carte */
+.timeline-content {
+    padding: 20px 25px;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid #282828;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.timeline-content:hover {
+    transform: translateY(-2px);
+    border-color: rgba(79, 195, 247, 0.5);
+}
+
+.timeline-item:hover::after {
+    background-color: #4fc3f7;
+    box-shadow: 0 0 8px rgba(79, 195, 247, 0.8);
+}
+
+/* Badges de date/contexte */
+.timeline-date {
+    display: inline-block;
+    font-size: 0.82em;
+    font-weight: 700;
+    color: #4fc3f7;
+    background-color: rgba(79, 195, 247, 0.1);
+    border: 1px solid rgba(79, 195, 247, 0.25);
+    border-radius: 8px;
+    padding: 3px 9px;
+    margin-bottom: 10px;
+}
+
+.timeline-content h3 {
+    margin: 0 0 6px 0;
+    font-size: 1.15em;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.timeline-content p {
+    margin: 0;
+    font-size: 0.95em;
+    color: #cccccc;
+    line-height: 1.5;
+}
+
+/* Responsivité pour écrans mobiles (vertical sur un seul côté) */
+@media screen and (max-width: 768px) {
+    /* Déplace la ligne à gauche */
+    .timeline-container::after {
+        left: 31px;
+    }
+
+    /* Tous les blocs prennent toute la largeur */
+    .timeline-item {
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 20px;
+        text-align: left !important;
+    }
+
+    /* Tous les points à gauche */
+    .timeline-item::after {
+        left: 23px;
+        right: auto;
+    }
+
+    .timeline-item.right {
+        left: 0%;
+    }
+}
+
