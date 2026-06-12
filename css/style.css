@@ -1533,23 +1533,24 @@ header {
 
 .utiles-container {
     display: flex;
-    gap: 16px;
-    max-width: 500px;
+    gap: 24px;
+    max-width: 800px;
     width: 90%;
     justify-content: center;
 }
 
 .utile-card {
-    flex: 1;
+    max-width: 360px;
+    width: 100%;
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 20px;
     background-color: #0d0d0d;
     border: 1px solid #282828;
-    border-radius: 12px;
-    padding: 12px 18px;
+    border-radius: 16px;
+    padding: 20px 25px;
     text-decoration: none;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     transition: transform 0.25s ease, border-color 0.25s ease;
 }
 
@@ -1562,9 +1563,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 38px;
-    height: 38px;
-    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
     background-color: rgba(79, 195, 247, 0.1);
     border: 1px solid rgba(79, 195, 247, 0.25);
     color: #4fc3f7;
@@ -1572,8 +1573,8 @@ header {
 }
 
 .utile-icon svg {
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
 }
 
 /* Couleur LinkedIn spécifique */
@@ -1584,26 +1585,27 @@ header {
 }
 
 .utile-text h3 {
-    margin: 0 0 2px 0;
-    font-size: 1.05em;
+    margin: 0 0 4px 0;
+    font-size: 1.15em;
     color: #ffffff;
     font-weight: 700;
 }
 
 .utile-text p {
     margin: 0;
-    font-size: 0.82em;
-    color: #999999;
-    line-height: 1.3;
+    font-size: 0.9em;
+    color: #cccccc;
+    line-height: 1.4;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .utiles-container {
         flex-direction: column;
-        gap: 12px;
+        align-items: center;
+        gap: 16px;
     }
     .utile-card {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
