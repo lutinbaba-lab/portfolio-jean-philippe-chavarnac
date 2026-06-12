@@ -1523,3 +1523,88 @@ header {
     }
 }
 
+/* ===== SECTION LIENS UTILES (CV & LINKEDIN) ===== */
+#utiles {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    background-color: white;
+}
+
+.utiles-container {
+    display: flex;
+    gap: 24px;
+    max-width: 800px;
+    width: 90%;
+    justify-content: center;
+}
+
+.utile-card {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #0d0d0d;
+    border: 1px solid #282828;
+    border-radius: 16px;
+    padding: 20px 25px;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.utile-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(79, 195, 247, 0.5);
+}
+
+.utile-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: rgba(79, 195, 247, 0.1);
+    border: 1px solid rgba(79, 195, 247, 0.25);
+    color: #4fc3f7;
+    flex-shrink: 0;
+}
+
+.utile-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Couleur LinkedIn spécifique */
+.utile-icon.linkedin-color {
+    background-color: rgba(10, 102, 194, 0.1);
+    border: 1px solid rgba(10, 102, 194, 0.25);
+    color: #0a66c2;
+}
+
+.utile-text h3 {
+    margin: 0 0 4px 0;
+    font-size: 1.2em;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.utile-text p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #aaaaaa;
+    line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+    .utiles-container {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .utile-card {
+        width: 100%;
+    }
+}
+
+
